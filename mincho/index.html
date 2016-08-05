@@ -1,10 +1,18 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@fukubaya" />
+    <meta name="twitter:title" content="画像に明朝体で文字を入れるやつ" />
+    <meta name="twitter:description" content="手持ちの画像に明朝体で好きな文字を入れられます" />
+    <meta name="twitter:image" content="https://fukubaya.github.io/img/fukubaya.png" />
+
     <title>画像に明朝体で文字入れるやつ</title>
   </head>
 <body>
   <h1>画像に明朝体で文字入れるやつ</h1>
+
   <div style="float: left;">
     画像ファイル <input type="file" id="base_img"><br/>
     フォントサイズ <select name="" id="font_size">
@@ -36,13 +44,15 @@
     <br/>
     <textarea id="textarea" type="textarea" cols="40" rows="3">明朝体1行目
 明朝体2行目</textarea><br/>
-    <button id="btn_draw">生成</button>
+    <button id="btn_draw">生成</button><br/>
+    <br/>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="fukubaya" data-lang="ja" data-hashtags="なんでもない写真を平成明朝体w9で特撮っぽくする遊び">ツイート</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <a href="https://twitter.com/fukubaya">@fukubaya</a>
   </div>
   <div>
   <canvas id="canvas" width="768" height="543" style="display: none"></canvas>
   <img id="canvas_img" style="border: solid 1px; margin: 1em;"/>
   </div>
-
   <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
   <script src="./js/mincho.js"></script>
   <script src="./js/main.js"></script>
