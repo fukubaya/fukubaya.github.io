@@ -1,0 +1,404 @@
+{
+  "imglist": [
+    {
+      "label": "ロッカジャポニカ @ ららぽーと柏の葉(2016/06/11)",
+      "src": "./img/20160611-001.jpg",
+      "topleft": {"x": 97, "y": 35},
+      "topright": {"x": 368, "y": 9},
+      "bottomleft": {"x": 102, "y": 148},
+      "bottomright": {"x": 370, "y": 132}
+    },
+    {
+      "label": "公野舞華, 斎藤夏鈴 @ ららぽーと富士見(2016/06/05)",
+      "src": "./img/20160605-002.jpg",
+      "topleft": {"x": 192, "y": 634},
+      "topright": {"x": 650, "y": 590},
+      "bottomleft": {"x": 261, "y": 1234},
+      "bottomright": {"x": 701, "y": 1213}
+    },
+    {
+      "label": "公野舞華, 播磨怜奈 @ ららぽーと富士見(2016/06/05)",
+      "src": "./img/20160605-001.jpg",
+      "topleft": {"x": 607, "y": 727},
+      "topright": {"x": 1217, "y": 798},
+      "bottomleft": {"x": 499, "y": 1919},
+      "bottomright": {"x": 1251, "y": 1905}
+    },
+    {
+      "label": "奥澤村 @ イオンモールむさし村山(2016/06/04)",
+      "src": "./img/20160604-001.jpg",
+      "topleft": {"x": 421, "y": 575},
+      "topright": {"x": 1025, "y": 603},
+      "bottomleft": {"x": 437, "y": 837},
+      "bottomright": {"x": 1012, "y": 864}
+    },
+    {
+      "label": "はちみつロケット @ アリオ曽我(2016/05/14)",
+      "src": "./img/20160514-001.jpg",
+      "topleft": {"x": 251, "y": 119},
+      "topright": {"x": 383, "y": 113},
+      "bottomleft": {"x": 233, "y": 322},
+      "bottomright": {"x": 379, "y": 326}
+    },
+    {
+      "label": "はちみつロケット @ アリオ曽我(2016/05/14)",
+      "src": "./img/20160514-002.jpg",
+      "topleft": {"x": 374, "y": 103},
+      "topright": {"x": 557, "y": 118},
+      "bottomleft": {"x": 384, "y": 383},
+      "bottomright": {"x": 562, "y": 369}
+    },
+    {
+      "label": "小島はな @ ららぽーと豊洲(2016/05/08)",
+      "src": "./img/20160508-001.jpg",
+      "topleft": {"x": 308, "y": 249},
+      "topright": {"x": 600, "y": 242},
+      "bottomleft": {"x": 286, "y": 465},
+      "bottomright": {"x": 590, "y": 466}
+    },
+    {
+      "label": "リーフシトロン @ 西武東戸塚(2016/05/05)",
+      "src": "./img/20160505-001.jpg",
+      "topleft": {"x": 24, "y": 265},
+      "topright": {"x": 1014, "y": 319},
+      "bottomleft": {"x": 23, "y": 580},
+      "bottomright": {"x": 1003, "y": 642}
+    },
+    {
+      "label": "内山あみ @ 船橋西武(2016/05/01)",
+      "src": "./img/20160501-001.jpg",
+      "topleft": {"x": 200, "y": 282},
+      "topright": {"x": 472, "y": 250},
+      "bottomleft": {"x": 213, "y": 466},
+      "bottomright": {"x": 493, "y": 436}
+    },
+    {
+      "label": "ロッカジャポニカ @ トレッサ横浜(2016/04/29)",
+      "src": "./img/20160429-001.jpg",
+      "topleft": {"x": 207, "y":184},
+      "topright": {"x": 423, "y": 220},
+      "bottomleft": {"x": 186, "y": 321},
+      "bottomright": {"x": 396, "y": 365}
+    },
+    {
+      "label": "内山あみ @ トレッサ横浜(2016/04/29)",
+      "src": "./img/20160429-002.jpg",
+      "topleft": {"x": 402, "y":180},
+      "topright": {"x": 652, "y":286},
+      "bottomleft": {"x": 325, "y": 463},
+      "bottomright": {"x": 568, "y": 534}
+    },
+    {
+      "label": "3B junior @ ららぽーと立川立飛(2016/04/16)",
+      "src": "./img/20160416-001.jpg",
+      "topleft": {"x": 371, "y": 464},
+      "topright": {"x": 901, "y": 484},
+      "bottomleft": {"x": 365, "y": 646},
+      "bottomright": {"x": 897, "y": 664}
+    },
+    {
+      "label": "雨宮かのん, 小島はな @ ららぽーと立川立飛(2016/04/16)",
+      "src": "./img/20160416-002.jpg",
+      "topleft": {"x": 334, "y": 233},
+      "topright": {"x": 490, "y": 228},
+      "bottomleft": {"x": 334, "y": 390},
+      "bottomright": {"x": 487, "y": 383}
+    },
+    {
+      "label": "奥澤レイナ, 中村優 @ ららぽーと立川立飛(2016/04/16)",
+      "src": "./img/20160416-003.jpg",
+      "topleft": {"x": 280, "y": 41},
+      "topright": {"x": 397, "y": 57},
+      "bottomleft": {"x": 268, "y": 384},
+      "bottomright": {"x": 371, "y": 386}
+    },
+    {
+      "label": "雨宮かのん @ 新宿BLAZE(2016/02/06)",
+      "src": "./img/20160206-001.jpg",
+      "topleft": {"x": 120, "y": 352},
+      "topright": {"x": 300, "y": 345},
+      "bottomleft": {"x": 245, "y": 800},
+      "bottomright": {"x": 429, "y": 749}
+    },
+    {
+      "label": "澪風 @ 新宿BLAZE(2016/02/06)",
+      "src": "./img/20160206-002.jpg",
+      "topleft": {"x": 65, "y": 292},
+      "topright": {"x": 541, "y": 315},
+      "bottomleft": {"x": 108, "y": 526},
+      "bottomright": {"x": 605, "y": 525}
+    },
+    {
+      "label": "華山志歩 @ 新宿BLAZE(2016/02/06)",
+      "src": "./img/20160206-003.jpg",
+      "topleft": {"x": 139, "y": 424},
+      "topright": {"x": 611, "y": 429},
+      "bottomleft": {"x": 142, "y": 637},
+      "bottomright": {"x": 660, "y": 629}
+    },
+    {
+      "label": "公野舞華 @ 新宿BLAZE(2016/02/06)",
+      "src": "./img/20160206-004.jpg",
+      "topleft": {"x": 199, "y": 295},
+      "topright": {"x": 611, "y": 250},
+      "bottomleft": {"x": 194, "y": 482},
+      "bottomright": {"x": 622, "y": 445}
+    },
+    {
+      "label": "塚本颯来 @ 新宿BLAZE(2016/02/06)",
+      "src": "./img/20160206-005.jpg",
+      "topleft": {"x": 173, "y": 375},
+      "topright": {"x": 560, "y": 396},
+      "bottomleft": {"x": 46, "y": 540},
+      "bottomright": {"x": 438, "y": 602}
+    },
+    {
+      "label": "播磨怜奈 @ 新宿BLAZE(2016/02/06)",
+      "src": "./img/20160206-006.jpg",
+      "topleft": {"x": 41, "y": 408},
+      "topright": {"x": 314, "y": 215},
+      "bottomleft": {"x": 106, "y": 585},
+      "bottomright": {"x": 401, "y": 420}
+    },
+    {
+      "label": "森青葉 @ 新宿BLAZE(2016/02/06)",
+      "src": "./img/20160206-007.jpg",
+      "topleft": {"x": 200, "y": 379},
+      "topright": {"x": 481, "y": 311},
+      "bottomleft": {"x": 197, "y": 521},
+      "bottomright": {"x": 489, "y": 474}
+    },
+    {
+      "label": "内山あみ @ (2016/01/17)",
+      "src": "./img/20160117-001.jpg",
+      "topleft": {"x": 47, "y": 139},
+      "topright": {"x": 373, "y": 306},
+      "bottomleft": {"x": -40, "y": 305},
+      "bottomright": {"x": 255, "y": 430}
+    },
+    {
+      "label": "ロッカジャポニカ @ ららぽーと横浜(2016/01/11)",
+      "src": "./img/20160111-001.jpg",
+      "topleft": {"x": 467, "y": 299},
+      "topright": {"x": 704, "y": 322},
+      "bottomleft": {"x": 453, "y": 468},
+      "bottomright": {"x": 691, "y": 486}
+    },
+    {
+      "label": "葉月智子 @ けやきひろば(2015/12/13)",
+      "src": "./img/20151213-001.jpg",
+      "topleft": {"x": 60, "y": 536},
+      "topright": {"x": 546, "y": 361},
+      "bottomleft": {"x": 177, "y": 871},
+      "bottomright": {"x": 660, "y": 687}
+    },
+    {
+      "label": "ロッカジャポニカ @ ららぽーと豊洲(2015/11/29)",
+      "src": "./img/20151129-001.jpg",
+      "topleft": {"x": 36, "y": 85},
+      "topright": {"x": 254, "y": 142},
+      "bottomleft": {"x": 7, "y": 252},
+      "bottomright": {"x": 237, "y": 282}
+    },
+    {
+      "label": "内山あみ @ ららぽーと富士見(2015/11/22)",
+      "src": "./img/20151122-001.jpg",
+      "topleft": {"x": 0, "y": 325},
+      "topright": {"x": 260, "y": 90},
+      "bottomleft": {"x": 98, "y": 449},
+      "bottomright": {"x": 366, "y": 215}
+    },
+    {
+      "label": "華山志歩, 内山あみ, 雨宮かのん, 愛来, 斎藤夏鈴 @ 第3回お茶会USTREAM(2015/11/11)",
+      "src": "./img/20151111-001.jpg",
+      "topleft": {"x": 170, "y": 29},
+      "topright": {"x": 702, "y": 47},
+      "bottomleft": {"x": 186, "y": 303},
+      "bottomright": {"x": 684, "y": 317}
+    },
+    {
+      "label": "華山志歩 @ (2015/11/10)",
+      "src": "./img/20151110-001.jpg",
+      "topleft": {"x": 55, "y": 454},
+      "topright": {"x": 687, "y": 525},
+      "bottomleft": {"x": 44, "y": 842},
+      "bottomright": {"x": 613, "y": 879}
+    },
+    {
+      "label": "高井千帆 @ (2015/11/09)",
+      "src": "./img/20151109-001.jpg",
+      "topleft": {"x": 119, "y": 439},
+      "topright": {"x": 600, "y": 524},
+      "bottomleft": {"x": 69, "y": 759},
+      "bottomright": {"x": 525, "y": 820}
+    },
+    {
+      "label": "森青葉 @ (2015/11/09)",
+      "src": "./img/20151109-002.jpg",
+      "topleft": {"x": 126, "y": 643},
+      "topright": {"x": 871, "y": 644},
+      "bottomleft": {"x": 149, "y": 1117},
+      "bottomright": {"x": 837, "y": 1094}
+    },
+    {
+      "label": "大平ひかる, 鈴木萌花 @ (2015/11/08)",
+      "src": "./img/20151108-001.jpg",
+      "topleft": {"x": 190, "y": 322},
+      "topright": {"x": 571, "y": 315},
+      "bottomleft": {"x": 203, "y": 644},
+      "bottomright": {"x": 575, "y": 615}
+    },
+    {
+      "label": "澪風 @ (2015/11/08)",
+      "src": "./img/20151108-002.jpg",
+      "topleft": {"x": 419, "y": 146},
+      "topright": {"x": 1045, "y": 155},
+      "bottomleft": {"x": 416, "y": 468},
+      "bottomright": {"x": 975, "y": 544}
+    },
+    {
+      "label": "奥澤レイナ @ (2015/11/07)",
+      "src": "./img/20151107-001.jpg",
+      "topleft": {"x": 62, "y": 391},
+      "topright": {"x": 549, "y": 386},
+      "bottomleft": {"x": 71, "y": 734},
+      "bottomright": {"x": 563, "y": 724}
+    },
+    {
+      "label": "愛来 @ (2015/11/07)",
+      "src": "./img/20151107-002.jpg",
+      "topleft": {"x": 55, "y": 417},
+      "topright": {"x": 582, "y": 425},
+      "bottomleft": {"x": 63, "y": 762},
+      "bottomright": {"x": 550, "y": 755}
+    },
+    {
+      "label": "栗本柚希 @ (2015/11/07)",
+      "src": "./img/20151107-003.jpg",
+      "topleft": {"x": 118, "y": 304},
+      "topright": {"x": 499, "y": 299},
+      "bottomleft": {"x": 140, "y": 555},
+      "bottomright": {"x": 477, "y": 535}
+    },
+    {
+      "label": "内藤るな @ (2015/11/06)",
+      "src": "./img/20151106-001.jpg",
+      "topleft": {"x": 144, "y": 368},
+      "topright": {"x": 453, "y": 365},
+      "bottomleft": {"x": 180, "y": 717},
+      "bottomright": {"x": 443, "y": 717}
+    },
+    {
+      "label": "鈴木萌花 @ (2015/11/06)",
+      "src": "./img/20151106-002.jpg",
+      "topleft": {"x": 70, "y": 389},
+      "topright": {"x": 514, "y": 375},
+      "bottomleft": {"x": 94, "y": 713},
+      "bottomright": {"x": 516, "y": 726}
+    },
+    {
+      "label": "平瀬美里 @ (2015/11/06)",
+      "src": "./img/20151106-003.jpg",
+      "topleft": {"x": 212, "y": 114},
+      "topright": {"x": 524, "y": 86},
+      "bottomleft": {"x": 233, "y": 350},
+      "bottomright": {"x": 531, "y": 330}
+    },
+    {
+      "label": "市川優月 @ (2015/11/06)",
+      "src": "./img/20151106-004.jpg",
+      "topleft": {"x": 39, "y": 455},
+      "topright": {"x": 570, "y": 434},
+      "bottomleft": {"x": 80, "y": 783},
+      "bottomright": {"x": 558, "y": 766}
+    },
+    {
+      "label": "華山志歩 @ (2015/11/05)",
+      "src": "./img/20151105-001.jpg",
+      "topleft": {"x": 66, "y": 407},
+      "topright": {"x": 538, "y": 422},
+      "bottomleft": {"x": 68, "y": 726},
+      "bottomright": {"x": 512, "y": 743}
+    },
+    {
+      "label": "公野舞華 @ (2015/11/05)",
+      "src": "./img/20151105-002.jpg",
+      "topleft": {"x": 112, "y": 406},
+      "topright": {"x": 509, "y": 408},
+      "bottomleft": {"x": 110, "y": 677},
+      "bottomright": {"x": 502, "y": 679}
+    },
+    {
+      "label": "小島はな @ (2015/11/05)",
+      "src": "./img/20151105-003.jpg",
+      "topleft": {"x": 144, "y": 351},
+      "topright": {"x": 542, "y": 329},
+      "bottomleft": {"x": 161, "y": 614},
+      "bottomright": {"x": 546, "y": 614}
+    },
+    {
+      "label": "小田垣陽菜 @ (2015/11/05)",
+      "src": "./img/20151105-004.jpg",
+      "topleft": {"x": 124, "y": 496},
+      "topright": {"x": 509, "y": 459},
+      "bottomleft": {"x": 147, "y": 770},
+      "bottomright": {"x": 535, "y": 719}
+    },
+    {
+      "label": "中原咲耶 @ (2015/11/04)",
+      "src": "./img/20151104-001.jpg",
+      "topleft": {"x": 60, "y": 406},
+      "topright": {"x": 485, "y": 371},
+      "bottomleft": {"x": 101, "y": 706},
+      "bottomright": {"x": 493, "y": 692}
+    },
+    {
+      "label": "栗本柚希 @ (2015/11/03)",
+      "src": "./img/20151103-001.jpg",
+      "topleft": {"x": 61, "y": 419},
+      "topright": {"x": 456, "y": 413},
+      "bottomleft": {"x": 73, "y": 568},
+      "bottomright": {"x": 450, "y": 557}
+    },
+    {
+      "label": "キングレコード組(仮), リーフシトロン @ イオンモールむさし村山(2015/10/11)",
+      "src": "./img/20151011-001.jpg",
+      "topleft": {"x": 16, "y": 506},
+      "topright": {"x": 531, "y": 511},
+      "bottomleft": {"x": 38, "y": 793},
+      "bottomright": {"x": 530, "y": 793}
+    },
+    {
+      "label": "内藤るな @ けやきひろば(2015/09/22)",
+      "src": "./img/20150922-001.jpg",
+      "topleft": {"x": 155, "y": 608},
+      "topright": {"x": 547, "y": 386},
+      "bottomleft": {"x": 286, "y": 911},
+      "bottomright": {"x": 682, "y": 680}
+    },
+    {
+      "label": "キングレコード組(仮) @ (2015/09/20)",
+      "src": "./img/20150920-001.jpg",
+      "topleft": {"x": 128, "y": 24},
+      "topright": {"x": 535, "y": 33},
+      "bottomleft": {"x": 141, "y": 222},
+      "bottomright": {"x": 519, "y": 210}
+    },
+    {
+      "label": "はちみつロケット @ イオンモール川口(2015/09/20)",
+      "src": "./img/20150920-002.jpg",
+      "topleft": {"x": 207, "y": 93},
+      "topright": {"x": 400, "y": 92},
+      "bottomleft": {"x": 209, "y": 217},
+      "bottomright": {"x": 416, "y": 212}
+    },
+    {
+      "label": "愛来 @ (2015/08/19)",
+      "src": "./img/20150819-001.jpg",
+      "topleft": {"x": 94, "y": 183},
+      "topright": {"x": 529, "y": 174},
+      "bottomleft": {"x": 116, "y": 740},
+      "bottomright": {"x": 515, "y": 748}
+    }
+  ]
+}

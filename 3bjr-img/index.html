@@ -1,0 +1,174 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <!-- twitter card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@fukubaya" />
+  <meta name="twitter:title" content="3B画像メーカー" />
+  <meta name="twitter:description" content="3B juniorの画像に好きな文字を入れられます" />
+  <meta name="twitter:image" content="https://fukubaya.github.io/img/fukubaya.png" />
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <title>3B画像メーカー</title>
+</head>
+<body style="padding-top: 70px;">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">3B画像メーカー</a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <p class="navbar-text navbar-right"><a class="navbar-link" href="https://twitter.com/fukubaya">@fukubaya</a>
+        </p>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-4">
+        <form>
+          <!-- 画像の選択 -->
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon" style="border: none; background-color: #fff;" ><i class="glyphicon glyphicon-picture"></i></span>
+              <select id="base_img" class="form-control"></select>
+            </div>
+          </div>
+        </form>
+        <form class="form-inline">
+          <div class="form-group">
+            <!-- フォント -->
+            <div class="input-group" style="display: inline-table;">
+              <select id="font_name" class="form-control">
+                <option value="'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif">ゴシック体</option>
+                <option value="'HGP平成明朝体W9', 'HGS平成明朝体W9', 'HGP平成明朝体W9', '平成明朝', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'HiraMinProN-W3', 'HGS明朝E', 'ＭＳ Ｐ明朝', 'MS PMincho', serif">明朝体</option>
+              </select>
+            </div>
+
+            <!-- フォントサイズ -->
+            <div class="input-group" style="display: inline-table;">
+              <select id="font_size" class="form-control">
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20" selected="selected">20</option>
+                <option value="24">24</option>
+                <option value="28">28</option>
+                <option value="32">32</option>
+                <option value="36">36</option>
+                <option value="40">40</option>
+                <option value="44">44</option>
+                <option value="48">48</option>
+                <option value="52">52</option>
+                <option value="56">56</option>
+                <option value="60">60</option>
+                <option value="64">64</option>
+              </select>
+            </div>
+
+            <div class="input-group" style="display: inline-table;">
+              <select id="font_color" class="form-control">
+                <option value="#ff0000">Red</option>
+                <option value="#ffff00">Yellow</option>
+                <option value="#00ff00">Lime</option>
+                <option value="#00ffff">Aqua</option>
+                <option value="#0000ff">Blue</option>
+                <option value="#ff00ff">Fuchsia</option>
+                <option value="#800000">Maroon</option>
+                <option value="#808000">Olive</option>
+                <option value="#008000">Green</option>
+                <option value="#008080">Teal</option>
+                <option value="#000080">Navy</option>
+                <option value="#800080">Purple</option>
+                <option value="#000000">Black</option>
+                <option value="#808080" selected="true">Gray</option>
+                <option value="#C0C0C0">Silver</option>
+                <option value="#ffffff">White</option>
+              </select>
+            </div>
+          </div>
+        </form>
+        <form class="form-inline">
+          <div class="form-group">
+            <!-- テキスト位置 -->
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-default active">
+                <input type="radio" name="align" value="left" autocomplete="off" checked><i class="glyphicon glyphicon-align-left"></i>
+              </label>
+              <label class="btn btn-default">
+                <input type="radio" name="align" value="center" autocomplete="off"><i class="glyphicon glyphicon-align-center"></i>
+              </label>
+              <label class="btn btn-default">
+                <input type="radio" name="align" value="right" autocomplete="off"><i class="glyphicon glyphicon-align-right"></i>
+              </label>
+            </div>
+
+            <!-- bold -->
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-default">
+                <input type="checkbox" id="chk_bold" autocomplete="off"><i class="glyphicon glyphicon-bold"></i>
+              </label>
+            </div>
+
+            <!-- italic -->
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-default">
+                <input type="checkbox" id="chk_italic" autocomplete="off"><i class="glyphicon glyphicon-italic"></i>
+              </label>
+            </div>
+          </div>
+        </form>
+        <form>
+          <!-- テキスト -->
+          <div class="form-group">
+            <textarea id="textarea" type="textarea" class="form-control" rows="10">スターダストプロモーションが
+満を持して送り出す特殊部隊。
+あらゆる分野で活躍できるユニット目指し、
+道なき道を切り開くため全力疾走中。
+道理の通らぬ世の中に敢えて挑戦する、
+頼りになる神出鬼没の3B junior。</textarea>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-sm-12 col-md-8">
+        <!-- img -->
+        <img id="canvas_img" class="img-responsive img-thumbnail"/>
+
+        <!-- hidden canvas -->
+        <canvas id="canvas" style="display: none;"></canvas>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="pull-right">
+          <p>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-hashtags="3bjr">ツイート</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="./js/drawtext.js"></script>
+  <script src="./js/3bjr-img.js"></script>
+</body>
+</html>
