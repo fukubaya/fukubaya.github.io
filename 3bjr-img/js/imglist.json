@@ -1,6 +1,70 @@
 {
   "imglist": [
     {
+      "label": "華山志歩, 中村優 @ (2016/09/10)",
+      "src": "./img/20160910-001.jpg",
+      "topleft": {"x": 85, "y": 0},
+      "topright": {"x": 326, "y": -5},
+      "bottomleft": {"x": 92, "y": 91},
+      "bottomright": {"x": 320, "y": 86}
+    },
+    {
+      "label": "森青葉, 中村優 @ (2016/09/09)",
+      "src": "./img/20160909-004.jpg",
+      "topleft": {"x": 120, "y": 0},
+      "topright": {"x": 291, "y": 0},
+      "bottomleft": {"x": 121, "y": 145},
+      "bottomright": {"x": 285, "y": 149}
+    },
+    {
+      "label": "ロッカジャポニカ @ (2016/09/09)",
+      "src": "./img/20160909-003.jpg",
+      "topleft": {"x": 378, "y": 849},
+      "topright": {"x": 1794, "y": 852},
+      "bottomleft": {"x": 390, "y": 1161},
+      "bottomright": {"x": 1776, "y": 1161}
+    },
+    {
+      "label": "ロッカジャポニカ @ (2016/09/09)",
+      "src": "./img/20160909-002.jpg",
+      "topleft": {"x": 192, "y": 154},
+      "topright": {"x": 530, "y": 140},
+      "bottomleft": {"x": 198, "y": 309},
+      "bottomright": {"x": 541, "y": 306}
+    },
+    {
+      "label": "ロッカジャポニカ @ (2016/09/09)",
+      "src": "./img/20160909-001.jpg",
+      "topleft": {"x": 109, "y": 330},
+      "topright": {"x": 553, "y": 329},
+      "bottomleft": {"x": 108, "y": 422},
+      "bottomright": {"x": 551, "y": 426}
+    },
+    {
+      "label": "澪風 @ (2016/09/08)",
+      "src": "./img/20160908-001.jpg",
+      "topleft": {"x": 327, "y": 0},
+      "topright": {"x": 554, "y": 182},
+      "bottomleft": {"x": 125, "y": 275},
+      "bottomright": {"x": 332, "y": 419}
+    },
+    {
+      "label": "3B junior @ (2016/09/07)",
+      "src": "./img/20160907-002.jpg",
+      "topleft": {"x": 697, "y": 489},
+      "topright": {"x": 1284, "y": 489},
+      "bottomleft": {"x": 697, "y": 788},
+      "bottomright": {"x": 1284, "y": 788}
+    },
+    {
+      "label": "3B junior @ (2016/09/07)",
+      "src": "./img/20160907-001.jpg",
+      "topleft": {"x": 612, "y": 876},
+      "topright": {"x": 1296, "y": 876},
+      "bottomleft": {"x": 621, "y": 1305},
+      "bottomright": {"x": 1308, "y": 1290}
+    },
+    {
       "label": "平瀬美里 @ (2016/08/18)",
       "src": "./img/20160818-001.jpg",
       "topleft": {"x": 254, "y": 510},
