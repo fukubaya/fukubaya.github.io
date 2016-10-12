@@ -1,6 +1,70 @@
 {
   "imglist": [
     {
+      "label": "ロッカジャポニカ @ ららぽーと富士見 (2016/10/09)",
+      "src": "./img/20161009-001.jpg",
+      "topleft": {"x": 72, "y": 52},
+      "topright": {"x": 1234, "y":52},
+      "bottomleft": {"x": 72, "y": 422},
+      "bottomright": {"x": 1234, "y": 422}
+    },
+    {
+      "label": "平瀬美里 @ (2016/10/07)",
+      "src": "./img/20161007-003.jpg",
+      "topleft": {"x": 340, "y": 437},
+      "topright": {"x": 667, "y": 390},
+      "bottomleft": {"x": 385, "y": 696},
+      "bottomright": {"x": 689, "y": 636}
+    },
+    {
+      "label": "平瀬美里? @ (2016/10/07)",
+      "src": "./img/20161007-002.jpg",
+      "topleft": {"x": 441, "y": 160},
+      "topright": {"x": 665, "y":137},
+      "bottomleft": {"x": 446, "y": 345},
+      "bottomright": {"x": 667, "y": 337}
+    },
+    {
+      "label": "平瀬美里? @ (2016/10/07)",
+      "src": "./img/20161007-001.jpg",
+      "topleft": {"x": 166, "y": 531},
+      "topright": {"x": 416, "y": 542},
+      "bottomleft": {"x": 151, "y": 711},
+      "bottomright": {"x": 417, "y": 724}
+    },
+    {
+      "label": "平瀬美里? @ (2016/10/06)",
+      "src": "./img/20161006-001.jpg",
+      "topleft": {"x": 90, "y": 207},
+      "topright": {"x": 552, "y": 305},
+      "bottomleft": {"x": 24, "y": 567},
+      "bottomright": {"x": 610, "y": 624}
+    },
+    {
+      "label": "平瀬美里? @ (2016/10/05)",
+      "src": "./img/20161005-001.jpg",
+      "topleft": {"x": 270, "y": 270},
+      "topright": {"x": 632, "y": 372},
+      "bottomleft": {"x": 204, "y": 585},
+      "bottomright": {"x": 572, "y": 652}
+    },
+    {
+      "label": "平瀬美里? @ (2016/10/04)",
+      "src": "./img/20161004-001.jpg",
+      "topleft": {"x": 110, "y": 309},
+      "topright": {"x": 498, "y": 240},
+      "bottomleft": {"x": 163, "y": 616},
+      "bottomright": {"x": 541, "y": 550}
+    },
+    {
+      "label": "公野舞華, 播磨怜奈 @ ＠JAM (2016/09/25)",
+      "src": "./img/20160925-001.jpg",
+      "topleft": {"x": 640, "y": 134},
+      "topright": {"x": 1032, "y": 136},
+      "bottomleft": {"x": 634, "y": 414},
+      "bottomright": {"x": 1080, "y": 420}
+    },
+    {
       "label": "華山志歩, 中村優 @ (2016/09/10)",
       "src": "./img/20160910-001.jpg",
       "topleft": {"x": 85, "y": 0},
@@ -71,6 +135,86 @@
       "topright": {"x": 918, "y": 466},
       "bottomleft": {"x": 278, "y": 1030},
       "bottomright": {"x": 946, "y": 1002}
+    },
+    {
+      "label": "3B junior @ (2016/07/28)",
+      "src": "./img/20160728-001.jpg",
+      "topleft": {"x": 76, "y": 24},
+      "topright": {"x": 1416, "y": 24},
+      "bottomleft": {"x": 76, "y": 484},
+      "bottomright": {"x": 1416, "y": 484}
+    },
+    {
+      "label": "平瀬美里 @ イオンモール浦和美園 (2016/07/09)",
+      "src": "./img/20160709-001.jpg",
+      "topleft": {"x": 261, "y": 162},
+      "topright": {"x": 470, "y": 117},
+      "bottomleft": {"x": 281, "y": 285},
+      "bottomright": {"x": 495, "y": 235}
+    },
+    {
+      "label": "椎名るか @ 東武百貨店 池袋店 (2016/07/07)",
+      "src": "./img/20160707-005.jpg",
+      "topleft": {"x": 162, "y": 220},
+      "topright": {"x": 312, "y": 187},
+      "bottomleft": {"x": 164, "y": 439},
+      "bottomright": {"x": 320, "y": 411}
+    },
+    {
+      "label": "平瀬美里 @ 東武百貨店 池袋店 (2016/07/07)",
+      "src": "./img/20160707-004.jpg",
+      "topleft": {"x": 80, "y": 198},
+      "topright": {"x": 222, "y": 180},
+      "bottomleft": {"x": 131, "y": 399},
+      "bottomright": {"x": 270, "y": 385}
+    },
+    {
+      "label": "高井千帆 @ 東武百貨店 池袋店 (2016/07/07)",
+      "src": "./img/20160707-003.jpg",
+      "topleft": {"x": 230, "y": 178},
+      "topright": {"x": 350, "y": 169},
+      "bottomleft": {"x": 237, "y": 367},
+      "bottomright": {"x": 360, "y": 360}
+    },
+    {
+      "label": "内藤るな @ 東武百貨店 池袋店 (2016/07/07)",
+      "src": "./img/20160707-002.jpg",
+      "topleft": {"x": 399, "y": 178},
+      "topright": {"x": 547, "y": 226},
+      "bottomleft": {"x": 340, "y": 376},
+      "bottomright": {"x": 493, "y": 423}
+    },
+    {
+      "label": "内山あみ @ 東武百貨店 池袋店 (2016/07/07)",
+      "src": "./img/20160707-001.jpg",
+      "topleft": {"x": 270  , "y": 228},
+      "topright": {"x": 426, "y": 225},
+      "bottomleft": {"x": 275, "y": 444},
+      "bottomright": {"x": 444, "y": 453}
+    },
+    {
+      "label": "内山あみ @ モラージュ菖蒲 (2016/07/03)",
+      "src": "./img/20160703-001.jpg",
+      "topleft": {"x": 348, "y": 230},
+      "topright": {"x": 557, "y": 230},
+      "bottomleft": {"x": 329, "y": 431},
+      "bottomright": {"x": 559, "y": 455}
+    },
+    {
+      "label": "3B junior @ ららぽーと豊洲(2016/06/19)",
+      "src": "./img/20160619-001.jpg",
+      "topleft": {"x": 140, "y": 90},
+      "topright": {"x": 531, "y": 71},
+      "bottomleft": {"x": 135, "y": 127},
+      "bottomright": {"x": 531, "y": 114}
+    },
+    {
+      "label": "平瀬美里 @ ららぽーとTOKYO-BAY (2016/06/18)",
+      "src": "./img/20160618-001.jpg",
+      "topleft": {"x": 262, "y": 255},
+      "topright": {"x": 514, "y": 268},
+      "bottomleft": {"x": 252, "y": 408},
+      "bottomright": {"x": 501, "y": 427}
     },
     {
       "label": "ロッカジャポニカ @ ららぽーと柏の葉(2016/06/11)",
