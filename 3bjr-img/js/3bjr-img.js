@@ -16,6 +16,7 @@
         font_size: function(){return parseInt($('#font_size option:selected').val());},
         font: function(){return $('#font_name option:selected').val();},
         bold: function(){return $('#chk_bold').prop('checked');},
+        column: function(){return parseInt($('#num_column option:selected').val());},
         italic: function(){return $('#chk_italic').prop('checked');},
         fill_style: function(){return $('#font_color').val();},
         text_align: function(){return $('input[name="align"]:checked').val();},
@@ -47,6 +48,7 @@
       $('input[name="align"]').change(function(){drawtext.draw();});
       $('#chk_bold').change(function(){drawtext.draw();});
       $('#chk_italic').change(function(){drawtext.draw();});
+      $('#num_column').change(function(){drawtext.draw();});
       $('#font_color').change(function(){drawtext.draw();});
 
       // 初期

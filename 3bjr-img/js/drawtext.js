@@ -19,6 +19,11 @@
     return function(){return obj;};
   }
 
+  var intl_div = function(p, q, m, n){
+    return {x: (n * p.x + m * q.x) / (m + n),
+            y: (n * p.y + m * q.y) / (m + n)};
+  };
+
   function DrawText(conf){
     this.canvas = conf.canvas;
     this.ctx = this.canvas.getContext('2d');
@@ -27,6 +32,7 @@
 
     this.get_font_size = to_function(conf.font_size || 12);
     this.get_font = to_function(conf.font || '"Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, Osaka, "MS PGothic", arial, helvetica, sans-serif');
+    this.get_column = to_function(conf.column || 1);
     this.enable_bold = to_function(conf.bold || false);
     this.enable_italic = to_function(conf.italic || false);
     this.get_fill_style = to_function(conf.fill_style || "#000000");
@@ -44,11 +50,12 @@
     clear_canvas(this.canvas, this.ctx);
 
     var font_size = this.get_font_size();
+    var line_height = font_size * 1.2;
+    var num_column = this.get_column();
     var lines = this.get_text().split("\n");
 
     var w_top = this.topright.x - this.topleft.x;
     var h_left = this.bottomleft.y - this.topleft.y;
-    var h_right = this.bottomright.y - this.topright.y;
 
     this.ctx.drawImage(this.imagedata, 0, 0);
     this.ctx.fillStyle = this.get_fill_style();
@@ -72,6 +79,20 @@
     this.ctx.lineTo(this.bottomleft.x, this.bottomleft.y);
     this.ctx.closePath();
     this.ctx.clip();
+    if(this.debug){
+      this.ctx.strokeStyle = "red";
+      this.ctx.stroke();
+
+      // line column
+      for(var i = 0; i < num_column - 1 ; i++){
+        var c_top = intl_div(this.topleft, this.topright, i + 1, num_column - i - 1);
+        var c_bottom = intl_div(this.bottomleft, this.bottomright, i + 1, num_column - i - 1);
+        this.ctx.beginPath();
+        this.ctx.moveTo(c_top.x, c_top.y);
+        this.ctx.lineTo(c_bottom.x, c_bottom.y);
+        this.ctx.stroke();
+      }
+    }
 
     // measure text width of each line
     var lines_width = [];
@@ -79,12 +100,29 @@
       lines_width.push(this.ctx.measureText(lines[i]).width);
     }
 
+    // max lines per column
+    var lines_per_column = Math.floor(h_left/line_height);
+
+    // column width
+    var w_column = w_top/num_column;
+
     // draw texts
     for(var i = 0; i < lines.length; i++){
-      var line_left_y = this.topleft.y + (i * font_size * 1.2);
-      var line_right_y = this.topright.y + (i * font_size * 1.2) * (h_right/h_left);
-      var line_left_x = this.topleft.x - (i * font_size * 1.2) * (this.topleft.x - this.bottomleft.x)/h_left;
-      var line_right_x = this.topright.x - (i * font_size * 1.2) * (this.topright.x - this.bottomright.x)/h_left;
+      var col = Math.floor(i/lines_per_column);
+      var row = i % lines_per_column;
+      var column_p = {
+        topleft: intl_div(this.topleft, this.topright, col, num_column - col),
+        topright: intl_div(this.topleft, this.topright, col + 1, num_column - col - 1),
+        bottomleft: intl_div(this.bottomleft, this.bottomright, col, num_column - col),
+        bottomright: intl_div(this.bottomleft, this.bottomright, col + 1, num_column - col - 1)
+      };
+      var column_h_right = column_p.bottomright.y - column_p.topright.y;
+      var column_h_left = column_p.bottomleft.y - column_p.topleft.y;
+
+      var line_left_y = column_p.topleft.y + (row * line_height);
+      var line_right_y = column_p.topright.y + (row * line_height) * (column_h_right/column_h_left);
+      var line_left_x = column_p.topleft.x - (row * line_height) * (column_p.topleft.x - column_p.bottomleft.x)/column_h_left;
+      var line_right_x = column_p.topright.x - (row * line_height) * (column_p.topright.x - column_p.bottomright.x)/column_h_left;
 
       var offset_x = line_left_x;
       var offset_y = line_left_y;
@@ -99,22 +137,17 @@
       this.ctx.save();
       this.ctx.transform(
         1.0,
-        (line_right_y - line_left_y)/w_top,
-        (this.bottomleft.x - this.topleft.x)/h_left,
+        (line_right_y - line_left_y)/(w_top/num_column),
+        (column_p.bottomleft.x - column_p.topleft.x)/column_h_left,
         1.0,
         offset_x,
         offset_y
       );
 
-      this.ctx.fillText(lines[i], 0, 0, w_top * lines_width[i] / Math.max.apply(null, lines_width));
+      this.ctx.fillText(lines[i], 0, 0, ((w_top - font_size * 0.5)/ num_column) * lines_width[i] / Math.max.apply(null, lines_width));
       this.ctx.restore();
     }
     this.ctx.restore();
-
-    if(this.debug){
-      this.ctx.strokeStyle = "red";
-      this.ctx.stroke();
-    }
 
     if(this.img){
       this.img.src = this.canvas.toDataURL();
