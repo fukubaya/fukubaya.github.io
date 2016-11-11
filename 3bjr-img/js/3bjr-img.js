@@ -20,6 +20,7 @@
         italic: function(){return $('#chk_italic').prop('checked');},
         fill_style: function(){return $('#font_color').val();},
         text_align: function(){return $('input[name="align"]:checked').val();},
+        text_valign: function(){return $('input[name="valign"]:checked').val();},
         get_text: function(){return $('#textarea').val();},
         debug: false,
         imglist: data.imglist
@@ -46,6 +47,7 @@
       $('#font_size').change(function(){drawtext.draw();});
       $('#font_name').change(function(){drawtext.draw();});
       $('input[name="align"]').change(function(){drawtext.draw();});
+      $('input[name="valign"]').change(function(){drawtext.draw();});
       $('#chk_bold').change(function(){drawtext.draw();});
       $('#chk_italic').change(function(){drawtext.draw();});
       $('#num_column').change(function(){drawtext.draw();});

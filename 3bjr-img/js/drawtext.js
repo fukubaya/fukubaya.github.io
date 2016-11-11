@@ -37,6 +37,7 @@
     this.enable_italic = to_function(conf.italic || false);
     this.get_fill_style = to_function(conf.fill_style || "#000000");
     this.get_text_align = to_function(conf.text_align || "left");
+    this.get_text_valign = to_function(conf.text_valign || "horizontal");
     this.get_text = to_function(conf.get_text);
 
     this.imagedata = null;
@@ -52,7 +53,11 @@
     var font_size = this.get_font_size();
     var line_height = font_size * 1.2;
     var num_column = this.get_column();
-    var lines = this.get_text().split("\n");
+    var text = this.get_text();
+    if(this.get_text_valign() == "vertical"){
+      text = getTategaki(text);
+    }
+    var lines = text.split("\n");
 
     var w_top = this.topright.x - this.topleft.x;
     var h_left = this.bottomleft.y - this.topleft.y;
@@ -167,6 +172,81 @@
       drawtext.draw();
     };
   };
+
+  var hankaku = new Array("ｶﾞ","ｷﾞ","ｸﾞ","ｹﾞ","ｺﾞ","ｻﾞ","ｼﾞ","ｽﾞ","ｾﾞ","ｿﾞ","ﾀﾞ","ﾁﾞ",
+  		                    "ﾂﾞ","ﾃﾞ","ﾄﾞ","ﾊﾞ","ﾋﾞ","ﾌﾞ","ﾍﾞ","ﾎﾞ","ﾊﾟ","ﾋﾟ","ﾌﾟ","ﾍﾟ","ﾎﾟ","ｦ","ｧ",
+  		                    "ｨ","ｩ","ｪ","ｫ","ｬ","ｭ","ｮ","ｯ","ｰ","ｱ","ｲ","ｳ","ｴ","ｵ","ｶ","ｷ","ｸ","ｹ",
+  		                    "ｺ","ｻ","ｼ","ｽ","ｾ","ｿ","ﾀ","ﾁ","ﾂ","ﾃ","ﾄ","ﾅ","ﾆ","ﾇ","ﾈ","ﾉ","ﾊ","ﾋ",
+  		                    "ﾌ","ﾍ","ﾎ","ﾏ","ﾐ","ﾑ","ﾒ","ﾓ","ﾔ","ﾕ","ﾖ","ﾗ","ﾘ","ﾙ","ﾚ","ﾛ","ﾜ","ﾝ");
+  var zenkaku = new Array("ガ","ギ","グ","ゲ","ゴ","ザ","ジ","ズ","ゼ","ゾ","ダ","ヂ",
+  		                        "ヅ","デ","ド","バ","ビ","ブ","ベ","ボ","パ","ピ","プ","ペ","ポ","ヲ","ァ",
+  		                        "ィ","ゥ","ェ","ォ","ャ","ュ","ョ","ッ","ー","ア","イ","ウ","エ","オ","カ",
+  		                        "キ","ク","ケ","コ","サ","シ","ス","セ","ソ","タ","チ","ツ","テ","ト","ナ",
+  		                        "ニ","ヌ","ネ","ノ","ハ","ヒ","フ","ヘ","ホ","マ","ミ","ム","メ","モ","ヤ",
+  		                        "ユ","ヨ","ラ","リ","ル","レ","ロ","ワ","ン");
+  var hankaku2 = new Array("1","2","3","4","5","6","7","8","9","0",
+                          "`","~","!","@","#","$","%","^","&","*",
+                          "(",")","-","_","=","+","[","{","}","]",
+                          "|",";",":",",","<",".",">","/","?");
+  var zenkaku2 = new Array("１","２","３","４","５","６","７","８","９","０",
+                          "｀","〜","！","＠","＃","＄","％","＾","＆","＊",
+                          "（","）","−","＿","＝","＋","［","｛","｝","］",
+                          "｜","；","：","，","＜","．","＞","／","？");
+
+  // 半角を全角に変換する
+  var han2zen = function(org_txt){
+    var zenkaku_txt = org_txt;
+    zenkaku_txt = zenkaku_txt.replace(/[A-Za-z]/g, function(s) {
+      return String.fromCharCode(s.charCodeAt(0) + 65248);
+    });
+    while(zenkaku_txt.match(/[ｦ-ﾝ1234567890\~!@#\$%\^&\*()\-_=+\[\]{}|;:,<.>/?]/)){
+      for(var i=0;i<hankaku.length;i++){
+        zenkaku_txt = zenkaku_txt.replace(hankaku[i], zenkaku[i]);
+      }
+      for(var i=0;i<hankaku2.length;i++){
+        zenkaku_txt = zenkaku_txt.replace(hankaku2[i],zenkaku2[i]);
+      }
+    }
+    zenkaku_txt = zenkaku_txt.replace(/[ー−―‐〜〜〜]/g, "｜");
+    zenkaku_txt = zenkaku_txt.replace(/ /g, "　");
+    zenkaku_txt = zenkaku_txt.replace(/[｛（［「]/g,"⏠");
+    zenkaku_txt = zenkaku_txt.replace(/[｝）］」]/g,"⏡");
+    return zenkaku_txt;
+  };
+
+  // 絵文字入り文字列の処理
+  var u2a = function(u_str){
+    var u_str_no_fe0f = u_str.replace(/\uFE0F/g,"");
+    var array = u_str_no_fe0f.match(/[\uD800-\uDBFF][\uDC00-\uDFFF]|[^\uD800-\uDFFF]/g);
+    return  array === null ? [] : array;
+  };
+
+  // 縦書きに変換
+  var getTategaki = function(org_txt){
+    var zenkaku_txt = han2zen(org_txt);
+    var lines = zenkaku_txt.split(/\n/);
+
+    for(var i=0;i<lines.length;i++){
+      lines[i] = u2a(lines[i]);
+    }
+
+    var n_per_line = 0;  // 1行あたりの文字数
+    for(var i=0;i<lines.length;i++){
+      if(lines[i].length>n_per_line){
+        n_per_line = lines[i].length;
+      }
+    }
+
+    var tategaki = "";
+    for(var i=0;i<n_per_line;i++){
+      for(var j=lines.length-1;j>=0;j--){
+        tategaki += (lines[j][i] === undefined ? "　" : lines[j][i]);
+      }
+      tategaki+="\n";
+    }
+    return tategaki;
+  };
+
 
   if("process" in global){
     module["exports"] = DrawText;
