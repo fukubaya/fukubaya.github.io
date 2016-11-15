@@ -159,6 +159,10 @@
     }
   };
   DrawText.prototype.set_image = function(img){
+    if(this.imagedata !== null && this.imagedata.src == img.src){
+      this.draw();
+      return;
+    }
     this.imagedata = new Image();
     this.imagedata.src = img.src;
     this.topleft = img.topleft;

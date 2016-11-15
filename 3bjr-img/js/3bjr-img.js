@@ -42,8 +42,6 @@
 
       // canvasの更新
       $('#base_img').change(function(){change_image();});
-      $('#textarea').keypress(function(){drawtext.draw();});
-      $('#textarea').keyup(function(){drawtext.draw();});
       $('#font_size').change(function(){drawtext.draw();});
       $('#font_name').change(function(){drawtext.draw();});
       $('input[name="align"]').change(function(){drawtext.draw();});
@@ -52,6 +50,7 @@
       $('#chk_italic').change(function(){drawtext.draw();});
       $('#num_column').change(function(){drawtext.draw();});
       $('#font_color').change(function(){drawtext.draw();});
+      $('#btn_refresh').click(function(){drawtext.draw();});
 
       // 初期
       change_image();
