@@ -15,6 +15,8 @@
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+  <link rel="stylesheet" href="../css/spectrum.css">
+
   <title>3B画像メーカー</title>
 </head>
 <body style="padding-top: 70px;">
@@ -97,24 +99,7 @@
             </div>
 
             <div class="input-group input-group-sm" style="display: inline-table;">
-              <select id="font_color" class="form-control">
-                <option value="#ff0000">Red</option>
-                <option value="#ffff00">Yellow</option>
-                <option value="#00ff00">Lime</option>
-                <option value="#00ffff">Aqua</option>
-                <option value="#0000ff">Blue</option>
-                <option value="#ff00ff">Fuchsia</option>
-                <option value="#800000">Maroon</option>
-                <option value="#808000">Olive</option>
-                <option value="#008000">Green</option>
-                <option value="#008080">Teal</option>
-                <option value="#000080">Navy</option>
-                <option value="#800080">Purple</option>
-                <option value="#000000">Black</option>
-                <option value="#808080" selected="true">Gray</option>
-                <option value="#C0C0C0">Silver</option>
-                <option value="#ffffff">White</option>
-              </select>
+              <input type="color" id="colorpicker" />
             </div>
           </div>
         </form>
@@ -203,6 +188,7 @@
   </div>
 
   <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="../js/spectrum.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="./js/drawtext.js"></script>
