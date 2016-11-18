@@ -1,6 +1,78 @@
 {
   "imglist": [
     {
+      "label": "内山あみ @ (2016/11/18)",
+      "src": "./img/20161118-001.jpg",
+      "topleft": {"x": 312, "y": 720},
+      "topright": {"x": 1264, "y": 704},
+      "bottomleft": {"x": 340, "y": 1340},
+      "bottomright": {"x": 1254, "y": 1350}
+    },
+    {
+      "label": "平瀬美里 @ (2016/11/17)",
+      "src": "./img/20161117-001.jpg",
+      "topleft": {"x": 440, "y": 800},
+      "topright": {"x": 1064, "y": 796},
+      "bottomleft": {"x": 468, "y": 1676},
+      "bottomright": {"x": 1056, "y": 1660}
+    },
+    {
+      "label": "高井千帆 @ (2016/11/16)",
+      "src": "./img/20161116-001.jpg",
+      "topleft": {"x": 184, "y": 644},
+      "topright": {"x": 964, "y": 724},
+      "bottomleft": {"x": 160, "y": 1196},
+      "bottomright": {"x": 916, "y": 1252}
+    },
+    {
+      "label": "ロッカジャポニカ @ (2016/11/15)",
+      "src": "./img/20161115-002.jpg",
+      "topleft": {"x": 45, "y": 45},
+      "topright": {"x": 1652, "y": 45},
+      "bottomleft": {"x": 45, "y": 440},
+      "bottomright": {"x": 1652, "y": 440}
+    },
+    {
+      "label": "椎名るか @ (2016/11/15)",
+      "src": "./img/20161115-001.jpg",
+      "topleft": {"x": 348, "y": 706},
+      "topright": {"x": 1208, "y": 744},
+      "bottomleft": {"x": 312, "y": 1276},
+      "bottomright": {"x": 1180, "y": 1332}
+    },
+    {
+      "label": "内藤るな @ (2016/11/14)",
+      "src": "./img/20161114-001.jpg",
+      "topleft": {"x": 310, "y": 125},
+      "topright": {"x": 1250, "y": 222},
+      "bottomleft": {"x": 314, "y": 762},
+      "bottomright": {"x": 1148, "y": 858}
+    },
+    {
+      "label": "ロッカジャポニカ @ (2016/11/13)",
+      "src": "./img/20161113-003.jpg",
+      "topleft": {"x": 36, "y": 36},
+      "topright": {"x": 1424, "y": 36},
+      "bottomleft": {"x": 36, "y": 485},
+      "bottomright": {"x": 1424, "y": 485}
+    },
+    {
+      "label": "ロッカジャポニカ @ (2016/11/13)",
+      "src": "./img/20161113-002.jpg",
+      "topleft": {"x": 762, "y": 728},
+      "topright": {"x": 1414, "y": 710},
+      "bottomleft": {"x": 762, "y": 1165},
+      "bottomright": {"x": 1416, "y": 1144}
+    },
+    {
+      "label": "3B junior @ colors at 横浜アリーナ (2016/11/13)",
+      "src": "./img/20161113-001.jpg",
+      "topleft": {"x": 48, "y": 48},
+      "topright": {"x": 1416, "y": 48},
+      "bottomleft": {"x": 48, "y": 412},
+      "bottomright": {"x": 1416, "y": 412}
+    },
+    {
       "label": "高井千帆 @ トレッサ横浜 (2016/11/12)",
       "src": "./img/20161112-007.jpg",
       "topleft": {"x": 56, "y": 412},
@@ -50,9 +122,17 @@
     },
     {
       "label": "ロッカジャポニカ @ イオンモール常滑 (2016/11/06)",
+      "src": "./img/20161106-002.jpg",
+      "topleft": {"x": 13, "y": 13},
+      "topright": {"x": 627, "y":13},
+      "bottomleft": {"x": 13, "y": 180},
+      "bottomright": {"x": 627, "y": 180}
+    },
+    {
+      "label": "ロッカジャポニカ @ イオンモール常滑 (2016/11/06)",
       "src": "./img/20161106-001.jpg",
-      "topleft": {"x": 234, "y": 18},
-      "topright": {"x": 2010, "y":18},
+      "topleft": {"x": 234, "y": 25},
+      "topright": {"x": 2010, "y":25},
       "bottomleft": {"x": 234, "y": 501},
       "bottomright": {"x": 2010, "y": 501}
     },
@@ -299,18 +379,18 @@
     {
       "label": "ロッカジャポニカ @ アリオモール蘇我? (2016/10/15)",
       "src": "./img/20161015-003.jpg",
-      "topleft": {"x": 18, "y": 18},
-      "topright": {"x": 1452, "y": 18},
-      "bottomleft": {"x": 18, "y": 525},
-      "bottomright": {"x": 1452, "y": 525}
+      "topleft": {"x": 30, "y": 30},
+      "topright": {"x": 1435, "y": 30},
+      "bottomleft": {"x": 30, "y": 525},
+      "bottomright": {"x": 1435, "y": 525}
     },
     {
       "label": "ロッカジャポニカ @ アリオモール蘇我 (2016/10/15)",
       "src": "./img/20161015-002.jpg",
-      "topleft": {"x": 12, "y": 12},
-      "topright": {"x": 1320, "y": 12},
-      "bottomleft": {"x": 12, "y": 417},
-      "bottomright": {"x": 1320, "y": 417}
+      "topleft": {"x": 40, "y": 40},
+      "topright": {"x": 1300, "y": 40},
+      "bottomleft": {"x": 40, "y": 417},
+      "bottomright": {"x": 1300, "y": 417}
     },
     {
       "label": "ロッカジャポニカ @ アリオモール蘇我 (2016/10/15)",
@@ -331,17 +411,17 @@
     {
       "label": "平瀬美里・高井千帆 @ ららぽーと新三郷? (2016/10/10)",
       "src": "./img/20161010-002.jpg",
-      "topleft": {"x": 8, "y": 8},
-      "topright": {"x": 1256, "y": 8},
-      "bottomleft": {"x": 8, "y": 376},
-      "bottomright": {"x": 1256, "y": 376}
+      "topleft": {"x": 30, "y": 30},
+      "topright": {"x": 1234, "y": 30},
+      "bottomleft": {"x": 30, "y": 376},
+      "bottomright": {"x": 1234, "y": 376}
     },
     {
       "label": "内山あみ @ ららぽーと新三郷? (2016/10/10)",
       "src": "./img/20161010-001.jpg",
-      "topleft": {"x": 15, "y": 15},
-      "topright": {"x": 828, "y": 15},
-      "bottomleft": {"x": 15, "y": 789},
+      "topleft": {"x": 30, "y": 30},
+      "topright": {"x": 828, "y": 30},
+      "bottomleft": {"x": 30, "y": 789},
       "bottomright": {"x": 828, "y": 789}
     },
     {
@@ -407,6 +487,14 @@
       "topright": {"x": 1032, "y": 136},
       "bottomleft": {"x": 634, "y": 414},
       "bottomright": {"x": 1080, "y": 420}
+    },
+    {
+      "label": "ロッカジャポニカ @ シガコレ (2016/09/10)",
+      "src": "./img/20160910-002.jpg",
+      "topleft": {"x": 22, "y": 22},
+      "topright": {"x": 728, "y": 22},
+      "bottomleft": {"x": 22, "y": 220},
+      "bottomright": {"x": 728, "y": 220}
     },
     {
       "label": "華山志歩, 中村優 @ (2016/09/10)",
@@ -503,6 +591,14 @@
       "topright": {"x": 918, "y": 466},
       "bottomleft": {"x": 278, "y": 1030},
       "bottomright": {"x": 946, "y": 1002}
+    },
+    {
+      "label": "ロッカジャポニカ @ TIF2016 (2016/08/07)",
+      "src": "./img/20160807-002.jpg",
+      "topleft": {"x": 20, "y": 20},
+      "topright": {"x": 1050, "y": 20},
+      "bottomleft": {"x": 20, "y": 358},
+      "bottomright": {"x": 1050, "y": 358}
     },
     {
       "label": "3B junior @ TIF2016 (2016/08/07)",
