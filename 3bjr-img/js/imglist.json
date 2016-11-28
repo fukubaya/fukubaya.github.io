@@ -1,6 +1,142 @@
 {
   "imglist": [
     {
+      "label": "ロッカジャポニカ @ (2016/11/28)",
+      "src": "./img/20161128-001.jpg",
+      "topleft": {"x": 682, "y": 868},
+      "topright": {"x": 1238, "y": 860},
+      "bottomleft": {"x": 696, "y": 1262},
+      "bottomright": {"x": 1270, "y": 1232}
+    },
+    {
+      "label": "ロッカジャポニカ @ (2016/11/27)",
+      "src": "./img/20161127-003.jpg",
+      "topleft": {"x": 34, "y": 34},
+      "topright": {"x": 1068, "y": 34},
+      "bottomleft": {"x": 34, "y": 350},
+      "bottomright": {"x": 1068, "y": 350}
+    },
+    {
+      "label": "内山あみ @ (2016/11/27)",
+      "src": "./img/20161127-002.jpg",
+      "topleft": {"x": 324, "y": 142},
+      "topright": {"x": 1274, "y": 98},
+      "bottomleft": {"x": 324, "y": 768},
+      "bottomright": {"x": 1184, "y": 765}
+    },
+    {
+      "label": "内山あみ @ (2016/11/27)",
+      "src": "./img/20161127-001.jpg",
+      "topleft": {"x": 15, "y": 15},
+      "topright": {"x": 325, "y": 15},
+      "bottomleft": {"x": 15, "y": 165},
+      "bottomright": {"x": 325, "y": 165}
+    },
+    {
+      "label": "ロッカジャポニカ @ (2016/11/26)",
+      "src": "./img/20161126-001.jpg",
+      "topleft": {"x": 32, "y": 32},
+      "topright": {"x": 1428, "y": 32},
+      "bottomleft": {"x": 32, "y": 436},
+      "bottomright": {"x": 1428, "y": 436}
+    },
+    {
+      "label": "内藤るな @ (2016/11/25)",
+      "src": "./img/20161125-001.jpg",
+      "topleft": {"x": 432, "y": 836},
+      "topright": {"x": 1116, "y": 852},
+      "bottomleft": {"x": 412, "y": 1812},
+      "bottomright": {"x": 1080, "y": 1792}
+    },
+    {
+      "label": "平瀬美里 @ (2016/11/24)",
+      "src": "./img/20161124-003.jpg",
+      "topleft": {"x": 114, "y": 728},
+      "topright": {"x": 862, "y": 668},
+      "bottomleft": {"x": 178, "y": 1294},
+      "bottomright": {"x": 910, "y": 1200}
+    },
+    {
+      "label": "ロッカジャポニカ @ (2016/11/24)",
+      "src": "./img/20161124-002.jpg",
+      "topleft": {"x": 27, "y": 27},
+      "topright": {"x": 1245, "y": 27},
+      "bottomleft": {"x": 27, "y": 363},
+      "bottomright": {"x": 1245, "y": 363}
+    },
+    {
+      "label": "ロッカジャポニカ @ (2016/11/24)",
+      "src": "./img/20161124-001.jpg",
+      "topleft": {"x": 32, "y": 32},
+      "topright": {"x": 2004, "y": 32},
+      "bottomleft": {"x": 32, "y": 456},
+      "bottomright": {"x": 2004, "y": 456}
+    },
+    {
+      "label": "内山あみ @ (2016/11/23)",
+      "src": "./img/20161123-002.jpg",
+      "topleft": {"x": 528, "y": 660},
+      "topright": {"x": 984, "y": 615},
+      "bottomleft": {"x": 597, "y": 1233},
+      "bottomright": {"x": 1029, "y": 1179}
+    },
+    {
+      "label": "ロッカジャポニカ @ (2016/11/23)",
+      "src": "./img/20161123-001.jpg",
+      "topleft": {"x": 168, "y": 36},
+      "topright": {"x": 1278, "y": 36},
+      "bottomleft": {"x": 168, "y": 340},
+      "bottomright": {"x": 1278, "y": 340}
+    },
+    {
+      "label": "椎名るか @ (2016/11/22)",
+      "src": "./img/20161122-002.jpg",
+      "topleft": {"x": 140, "y": 604},
+      "topright": {"x": 922, "y": 628},
+      "bottomleft": {"x": 128, "y": 1212},
+      "bottomright": {"x": 908, "y": 1212}
+    },
+    {
+      "label": "ロッカジャポニカ @ (2016/11/22)",
+      "src": "./img/20161122-001.jpg",
+      "topleft": {"x": 28, "y": 28},
+      "topright": {"x": 1420, "y": 28},
+      "bottomleft": {"x": 28, "y": 476},
+      "bottomright": {"x": 1420, "y": 476}
+    },
+    {
+      "label": "内藤るな @ (2016/11/21)",
+      "src": "./img/20161121-001.jpg",
+      "topleft": {"x": 390, "y": 804},
+      "topright": {"x": 1197, "y": 801},
+      "bottomleft": {"x": 411, "y": 1806},
+      "bottomright": {"x": 1197, "y": 1806}
+    },
+    {
+      "label": "ロッカジャポニカ @ (2016/11/20)",
+      "src": "./img/20161120-003.jpg",
+      "topleft": {"x": 27, "y": 27},
+      "topright": {"x": 1248, "y": 27},
+      "bottomleft": {"x": 27, "y": 267},
+      "bottomright": {"x": 1248, "y": 267}
+    },
+    {
+      "label": "ロッカジャポニカ @ (2016/11/20)",
+      "src": "./img/20161120-002.jpg",
+      "topleft": {"x": 33, "y": 33},
+      "topright": {"x": 1236, "y": 33},
+      "bottomleft": {"x": 33, "y": 252},
+      "bottomright": {"x": 1236, "y": 252}
+    },
+    {
+      "label": "高井千帆 @ (2016/11/20)",
+      "src": "./img/20161120-001.jpg",
+      "topleft": {"x": 166, "y": 580},
+      "topright": {"x": 748, "y": 602},
+      "bottomleft": {"x": 132, "y": 1044},
+      "bottomright": {"x": 778, "y": 1074}
+    },
+    {
       "label": "内山あみ @ (2016/11/18)",
       "src": "./img/20161118-001.jpg",
       "topleft": {"x": 312, "y": 720},
