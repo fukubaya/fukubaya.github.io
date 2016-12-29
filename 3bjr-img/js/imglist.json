@@ -1,6 +1,54 @@
 {
   "imglist": [
     {
+      "label": "奥澤村",
+      "src": "./img/unit_okuzawamura.jpg",
+      "topleft": {"x": 20, "y": 20},
+      "topright": {"x": 620, "y": 20},
+      "bottomleft": {"x": 20, "y": 212},
+      "bottomright": {"x": 620, "y": 212}
+    },
+    {
+      "label": "はちみつロケット",
+      "src": "./img/unit_hachimitsurocket.jpg",
+      "topleft": {"x": 20, "y": 20},
+      "topright": {"x": 620, "y": 20},
+      "bottomleft": {"x": 20, "y": 212},
+      "bottomright": {"x": 620, "y": 212}
+    },
+    {
+      "label": "マジェスティックセブン",
+      "src": "./img/unit_MJ7.jpg",
+      "topleft": {"x": 20, "y": 20},
+      "topright": {"x": 620, "y": 20},
+      "bottomleft": {"x": 20, "y": 212},
+      "bottomright": {"x": 620, "y": 212}
+    },
+    {
+      "label": "リーフシトロン",
+      "src": "./img/unit_LC.jpg",
+      "topleft": {"x": 20, "y": 20},
+      "topright": {"x": 620, "y": 20},
+      "bottomleft": {"x": 20, "y": 186},
+      "bottomright": {"x": 620, "y": 186}
+    },
+    {
+      "label": "中原咲耶",
+      "src": "./img/unit_nakaharasakuya.jpg",
+      "topleft": {"x": 544, "y": 20},
+      "topright": {"x": 938, "y": 20},
+      "bottomleft": {"x": 544, "y": 942},
+      "bottomright": {"x": 938, "y": 942}
+    },
+    {
+      "label": "はちみつロケット @ (2016/12/28)",
+      "src": "./img/20161228-001.jpg",
+      "topleft": {"x": 424, "y": 800},
+      "topright": {"x": 1960, "y": 940},
+      "bottomleft": {"x": 412, "y": 1640},
+      "bottomright": {"x": 1776, "y": 1732}
+    },
+    {
       "label": "ロッカジャポニカ @ (2016/11/28)",
       "src": "./img/20161128-001.jpg",
       "topleft": {"x": 682, "y": 868},
