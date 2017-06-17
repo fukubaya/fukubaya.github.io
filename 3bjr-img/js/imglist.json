@@ -41,6 +41,38 @@
       "bottomright": {"x": 938, "y": 942}
     },
     {
+      "label": "ロッカジャポニカ @ タンバリン、凛々 MV (2017/06/18)",
+      "src": "./img/20170618-004.jpg",
+      "topleft": {"x": 25, "y": 25},
+      "topright": {"x": 1255, "y": 25},
+      "bottomleft": {"x": 25, "y": 280},
+      "bottomright": {"x": 1255, "y": 280}
+    },
+    {
+      "label": "ロッカジャポニカ @ タンバリン、凛々 MV (2017/06/18)",
+      "src": "./img/20170618-003.jpg",
+      "topleft": {"x": 490, "y": 18},
+      "topright": {"x": 1260, "y": 18},
+      "bottomleft": {"x": 490, "y": 240},
+      "bottomright": {"x": 1260, "y": 240}
+    },
+    {
+      "label": "ロッカジャポニカ @ タンバリン、凛々 MV (2017/06/18)",
+      "src": "./img/20170618-002.jpg",
+      "topleft": {"x": 40, "y": 40},
+      "topright": {"x": 1240, "y": 40},
+      "bottomleft": {"x": 40, "y": 360},
+      "bottomright": {"x": 1240, "y": 360}
+    },
+    {
+      "label": "ロッカジャポニカ @ Dreaming Road MV (2017/06/18)",
+      "src": "./img/20170618-001.jpg",
+      "topleft": {"x": 90, "y": 60},
+      "topright": {"x": 1220, "y": 60},
+      "bottomleft": {"x": 90, "y": 660},
+      "bottomright": {"x": 1220, "y": 660}
+    },
+    {
       "label": "はちみつロケット @ (2016/12/28)",
       "src": "./img/20161228-001.jpg",
       "topleft": {"x": 424, "y": 800},
