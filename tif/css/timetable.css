@@ -1,0 +1,191 @@
+#timetable-container1,
+#timetable-container2,
+#timetable-container3 {
+    margin: 10px 0;
+    width: 100%;
+    overflow: scroll;
+}
+
+.skeduler-container {
+  font-family: Helvetica, ​Arial, ​sans-serif;
+}
+
+.skeduler-container * {
+    box-sizing: content-box;
+}
+
+.skeduler-headers {
+  border-left: 1px solid #e8e8e8;
+  display: flex;
+  padding-left: 60px;
+  position: relative;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.skeduler-headers:before {
+  border-top: 1px solid #e8e8e8;
+  content: "";
+  width: 60px;
+  position: absolute;
+  left: 0;
+}
+
+.skeduler-headers > div {
+  flex: 0 0 120px;
+  height: 30px;
+  padding-top: 10px;
+  background-color: #f0f0f0;
+  border-left: 1px solid #E8E8E8;
+  border-bottom: 1px solid #E8E8E8;
+  border-top: 1px solid #e8e8e8;
+  text-align: center;
+  color: #ff84b4;
+}
+
+.skeduler-headers > div:last-child,
+.skeduler-main-body > div > div.skeduler-cell  {
+  border-right: 1px solid #E8E8E8;
+}
+
+/* HOT STAGE */
+.skeduler-main-body > div:nth-child(1) > div.skeduler-cell {
+    background-color: #fb1a39;
+}
+.skeduler-headers > div:nth-child(1) {
+    color: #fb1a39;
+}
+/* HEAT GARAGE */
+.skeduler-main-body > div:nth-child(2) > div.skeduler-cell {
+    background-color: #ff783b;
+}
+.skeduler-headers > div:nth-child(2) {
+    color: #ff783b;
+}
+/* SMILE GARDEN */
+.skeduler-main-body > div:nth-child(3) > div.skeduler-cell {
+    background-color: #b1dd00;
+}
+.skeduler-headers > div:nth-child(3) {
+    color: #b1dd00;
+}
+/* DOLL FACTORY */
+.skeduler-main-body > div:nth-child(4) > div.skeduler-cell {
+    background-color: #ff84b4;
+}
+.skeduler-headers > div:nth-child(4) {
+    color: #ff84b4;
+}
+/* SKY STAGE */
+.skeduler-main-body > div:nth-child(5) > div.skeduler-cell {
+    background-color: #39cdfe;
+}
+.skeduler-headers > div:nth-child(5) {
+    color: #39cdfe;
+}
+/* FESTIVAL STAGE */
+.skeduler-main-body > div:nth-child(6) > div.skeduler-cell {
+    background-color: #ffdf33;
+}
+.skeduler-headers > div:nth-child(6) {
+    color: #ffdf33;
+}
+/* DREAM STAGE */
+.skeduler-main-body > div:nth-child(7) > div.skeduler-cell {
+    background-color: #00c858;
+}
+.skeduler-headers > div:nth-child(7) {
+    color: #00c858;
+}
+/* フジさんのヨコ */
+.skeduler-main-body > div:nth-child(8) > div.skeduler-cell {
+    background-color: #51d3f8;
+}
+.skeduler-headers > div:nth-child(8) {
+    color: #51d3f8;
+}
+/* INFO CENTRE */
+.skeduler-main-body > div:nth-child(9) > div.skeduler-cell {
+    background-color: #fc3ca6;
+}
+.skeduler-headers > div:nth-child(9) {
+    color: #fc3ca6;
+}
+
+.skeduler-main {
+  display: flex;
+}
+
+.skeduler-main-timeline {
+  margin-top: -1px;
+}
+
+.skeduler-main-timeline div {
+  width: 50px;
+  height: 97px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 3px;
+  color: #333333;
+  border-right: 1px solid #E8E8E8;
+  border-left: 1px solid #E8E8E8;
+}
+
+.skeduler-main-timeline div:first-child {
+    border-top: 1px solid #E8E8E8;
+}
+
+.skeduler-main-body {
+  display: flex;
+}
+
+.skeduler-main-timeline div,
+.skeduler-main-body > div > div.skeduler-cell {
+    background-color: #ff84b4;
+}
+
+.skeduler-main-timeline div:nth-child(even),
+.skeduler-main-body > div > div.skeduler-cell:nth-child(odd) {
+  border-top: 1px dotted #E8E8E8;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.skeduler-main-body > div > div.skeduler-cell {
+  width: 120px;
+  height: 100px;
+}
+
+.skeduler-main-body > div > .skeduler-task-placeholder {
+  height: 0;
+  position: relative;
+}
+
+.skeduler-main-body > div > .skeduler-task-placeholder > div {
+  position: absolute;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px .125em .25em rgba(0,0,0,.25);
+  margin-top: 2px;
+  cursor: pointer;
+  color: #000000;
+  word-wrap: break-word;
+  min-width: 0;
+  min-height: 0;
+  transition: all .4s;
+  font-size: 9px;
+}
+.skeduler-main-body > div > .skeduler-task-placeholder > div.checked {
+  background-color: #ffff00;
+  font-weight: bold;
+}
+
+.skeduler-main-body > div > .skeduler-task-placeholder > div:hover {
+  box-shadow: 0 .25em .5em rgba(0,0,0,.5);
+  background-color: #f7ff7c;
+  min-height: 120px;
+//  min-width: 90px;
+//  opacity: 0.8;
+  z-index: 9999;
+}
