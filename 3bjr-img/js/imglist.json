@@ -41,6 +41,14 @@
       "bottomright": {"x": 938, "y": 942}
     },
     {
+      "label": "3B junior @ TIF2017 (2017/08/04)",
+      "src": "./img/20170804-001.jpg",
+      "topleft": {"x": 20, "y": 20},
+      "topright": {"x": 1004, "y": 20},
+      "bottomleft": {"x": 20, "y": 210},
+      "bottomright": {"x": 1004, "y": 210}
+    },
+    {
       "label": "ロッカジャポニカ @ タンバリン、凛々 MV (2017/06/18)",
       "src": "./img/20170618-004.jpg",
       "topleft": {"x": 25, "y": 25},
