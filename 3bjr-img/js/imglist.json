@@ -1,6 +1,46 @@
 {
   "imglist": [
     {
+      "label": "ロッカジャポニカ (2017/10/19)",
+      "src": "./img/20171019-001.jpg",
+      "topleft": {"x": 76, "y": 32},
+      "topright": {"x": 1408, "y": 32},
+      "bottomleft": {"x": 76, "y": 465},
+      "bottomright": {"x": 1408, "y": 465}
+    },
+    {
+      "label": "ロッカジャポニカ (2017/10/13)",
+      "src": "./img/20171013-001.jpg",
+      "topleft": {"x": 18, "y": 18},
+      "topright": {"x": 1464, "y": 18},
+      "bottomleft": {"x": 18, "y": 396},
+      "bottomright": {"x": 1464, "y": 396}
+    },
+    {
+      "label": "ロッカジャポニカ @ タワーレコード吉祥寺 (2017/10/01)",
+      "src": "./img/20171001-002.jpg",
+      "topleft": {"x": 87, "y": 696},
+      "topright": {"x": 2007, "y": 816},
+      "bottomleft": {"x": 30, "y": 1500},
+      "bottomright": {"x": 1968, "y": 1641}
+    },
+    {
+      "label": "ロッカジャポニカ @ タワーレコード吉祥寺 (2017/10/01)",
+      "src": "./img/20171001-001.jpg",
+      "topleft": {"x": 120, "y": 633},
+      "topright": {"x": 1575, "y": 690},
+      "bottomleft": {"x": 81, "y": 1140},
+      "bottomright": {"x": 1599, "y": 1236}
+    },
+    {
+      "label": "ロッカジャポニカ @ イナズマロックフェス2016リターンズ (2017/09/15)",
+      "src": "./img/20170915-001.jpg",
+      "topleft": {"x": 56, "y": 56},
+      "topright": {"x": 1480, "y": 56},
+      "bottomleft": {"x": 56, "y": 1088},
+      "bottomright": {"x": 1480, "y": 1088}
+    },
+    {
       "label": "奥澤村",
       "src": "./img/unit_okuzawamura.jpg",
       "topleft": {"x": 20, "y": 20},
