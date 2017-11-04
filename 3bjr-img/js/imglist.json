@@ -1,6 +1,22 @@
 {
     "imglist": [
 	{
+	    "label": "3B junior (2017/10/22) @ ららぽーと富士見",
+	    "src": "./img/20171022-001.jpg",
+	    "topleft": {"x": 44, "y": 44},
+	    "topright": {"x": 2000, "y": 44},
+	    "bottomleft": {"x": 44, "y": 676},
+	    "bottomright": {"x": 2000, "y": 676}
+	},
+	{
+	    "label": "3B junior (2017/10/21) @ ららぽーと豊洲",
+	    "src": "./img/20171021-001.jpg",
+	    "topleft": {"x": 28, "y": 28},
+	    "topright": {"x": 2016, "y": 28},
+	    "bottomleft": {"x": 28, "y": 588},
+	    "bottomright": {"x": 2016, "y": 588}
+	},
+	{
 	    "label": "ロッカジャポニカ (2017/10/19)",
 	    "src": "./img/20171019-001.jpg",
 	    "topleft": {"x": 76, "y": 32},
@@ -79,6 +95,14 @@
 	    "topright": {"x": 938, "y": 20},
 	    "bottomleft": {"x": 544, "y": 942},
 	    "bottomright": {"x": 938, "y": 942}
+	},
+	{
+	    "label": "3B junior @ 昭島モリタウン (2017/08/13)",
+	    "src": "./img/20170813-001.jpg",
+	    "topleft": {"x": 24, "y": 24},
+	    "topright": {"x": 1448, "y": 24},
+	    "bottomleft": {"x": 24, "y": 596},
+	    "bottomright": {"x": 1448, "y": 596}
 	},
 	{
 	    "label": "3B junior @ TIF2017 (2017/08/04)",
