@@ -1,6 +1,38 @@
 {
     "imglist": [
 	{
+	    "label": "ロッカジャポニカ (2017/11/25)",
+	    "src": "./img/20171125-001.jpg",
+	    "topleft": {"x": 20, "y": 1106},
+	    "topright": {"x": 1458, "y": 1106},
+	    "bottomleft": {"x": 20, "y": 1780},
+	    "bottomright": {"x": 1458, "y": 1780}
+	},
+	{
+	    "label": "ロッカジャポニカ (2017/11/24)",
+	    "src": "./img/20171124-001.jpg",
+	    "topleft": {"x": 185, "y": 223},
+	    "topright": {"x": 623, "y": 223},
+	    "bottomleft": {"x": 185, "y": 466},
+	    "bottomright": {"x": 623, "y": 466}
+	},
+	{
+	    "label": "ロッカジャポニカ (2017/11/08)",
+	    "src": "./img/20171108-001.jpg",
+	    "topleft": {"x": 40, "y": 40},
+	    "topright": {"x": 600, "y": 40},
+	    "bottomleft": {"x": 40, "y": 600},
+	    "bottomright": {"x": 600, "y": 600}
+	},
+	{
+	    "label": "ロッカジャポニカ (2017/10/25)",
+	    "src": "./img/20171025-001.jpg",
+	    "topleft": {"x": 20, "y": 20},
+	    "topright": {"x": 1458, "y": 20},
+	    "bottomleft": {"x": 20, "y": 528},
+	    "bottomright": {"x": 1458, "y": 528}
+	},
+	{
 	    "label": "3B junior (2017/10/22) @ ららぽーと富士見",
 	    "src": "./img/20171022-001.jpg",
 	    "topleft": {"x": 44, "y": 44},
