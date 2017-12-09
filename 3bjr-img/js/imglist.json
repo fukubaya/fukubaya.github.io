@@ -1,6 +1,14 @@
 {
     "imglist": [
 	{
+	    "label": "3B junior",
+	    "src": "./img/3bjr.jpg",
+	    "topleft": {"x": 15, "y": 15},
+	    "topright": {"x": 929, "y": 15},
+	    "bottomleft": {"x": 15, "y": 340},
+	    "bottomright": {"x": 929, "y": 340}
+	},
+	{
 	    "label": "はちみつロケット @ サンシャインシティ噴水広場 (2017/12/01)",
 	    "src": "./img/20171201-001.jpg",
 	    "topleft": {"x": 30, "y": 948},
