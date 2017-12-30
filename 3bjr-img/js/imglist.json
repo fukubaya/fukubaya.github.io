@@ -1,6 +1,22 @@
 {
     "imglist": [
 	{
+	    "label": "ロッカジャポニカ (2017/12/19)",
+	    "src": "./img/20171219-001.jpg",
+	    "topleft": {"x": 36, "y": 36},
+	    "topright": {"x": 2012, "y": 36},
+	    "bottomleft": {"x": 36, "y": 680},
+	    "bottomright": {"x": 2012, "y": 680}
+	},
+	{
+	    "label": "はちみつロケット",
+	    "src": "./img/unit_hachimitsurocket_2.jpg",
+	    "topleft": {"x": 10, "y": 10},
+	    "topright": {"x": 620, "y": 10},
+	    "bottomleft": {"x": 10, "y": 252},
+	    "bottomright": {"x": 620, "y": 252}
+	},
+	{
 	    "label": "3B junior",
 	    "src": "./img/3bjr.jpg",
 	    "topleft": {"x": 15, "y": 15},
