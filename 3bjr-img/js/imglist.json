@@ -1,6 +1,30 @@
 {
     "imglist": [
 	{
+	    "label": "はちみつロケット",
+	    "src": "./img/unit_hachimitsurocket_1st.jpg",
+	    "topleft": {"x": 10, "y": 504},
+	    "topright": {"x": 867, "y": 504},
+	    "bottomleft": {"x": 10, "y": 790},
+	    "bottomright": {"x": 867, "y": 790}
+	},
+	{
+	    "label": "はちみつロケット @ 大宮アルシェ (2018/02/12)",
+	    "src": "./img/20180212-001.jpg",
+	    "topleft": {"x": 10, "y": 10},
+	    "topright": {"x": 630, "y": 10},
+	    "bottomleft": {"x": 10, "y": 159},
+	    "bottomright": {"x": 630, "y": 159}
+	},
+	{
+	    "label": "はちみつロケット @ ららぽーと柏の葉 (2018/02/10)",
+	    "src": "./img/20180210-001.jpg",
+	    "topleft": {"x": 10, "y": 10},
+	    "topright": {"x": 630, "y": 10},
+	    "bottomleft": {"x": 10, "y": 130},
+	    "bottomright": {"x": 630, "y": 130}
+	},
+	{
 	    "label": "内山あみ (2018/01/19)",
 	    "src": "./img/20180119-001.jpg",
 	    "topleft": {"x": 1564, "y": 36},
