@@ -1,6 +1,22 @@
 {
     "imglist": [
 	{
+	    "label": "ロッカジャポニカ (2018/03/07)",
+	    "src": "./img/20180307-001.jpg",
+	    "topleft": {"x": 20, "y": 570},
+	    "topright": {"x": 720, "y": 570},
+	    "bottomleft": {"x": 20, "y": 940},
+	    "bottomright": {"x": 720, "y": 940}
+	},
+	{
+	    "label": "ロッカジャポニカ (2018/02/25)",
+	    "src": "./img/20180225-001.jpg",
+	    "topleft": {"x": 45, "y": 903},
+	    "topright": {"x": 2003, "y": 903},
+	    "bottomleft": {"x": 45, "y": 1491},
+	    "bottomright": {"x": 2003, "y": 1491}
+	},
+	{
 	    "label": "はちみつロケット",
 	    "src": "./img/unit_hachimitsurocket_1st.jpg",
 	    "topleft": {"x": 10, "y": 504},
