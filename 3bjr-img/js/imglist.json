@@ -1,6 +1,14 @@
 {
     "imglist": [
 	{
+	    "label": "3B junior",
+	    "src": "./img/new3bjr.jpg",
+	    "topleft": {"x": 880, "y": 10},
+	    "topright": {"x": 1390, "y": 10},
+	    "bottomleft": {"x": 880, "y": 517},
+	    "bottomright": {"x": 1390, "y": 517}
+	},
+	{
 	    "label": "ロッカジャポニカ (2018/03/07)",
 	    "src": "./img/20180307-001.jpg",
 	    "topleft": {"x": 20, "y": 570},
