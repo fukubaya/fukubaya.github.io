@@ -1,6 +1,14 @@
 {
     "imglist": [
 	{
+	    "label": "はちロケFRESH @ Future SEVEN (2018/03/31)",
+	    "src": "./img/20180331-001.jpg",
+	    "topleft": {"x": 20, "y": 20},
+	    "topright": {"x": 1180, "y": 20},
+	    "bottomleft": {"x": 20, "y": 334},
+	    "bottomright": {"x": 1180, "y": 334}
+	},
+	{
 	    "label": "3B junior",
 	    "src": "./img/new3bjr.jpg",
 	    "topleft": {"x": 880, "y": 10},
