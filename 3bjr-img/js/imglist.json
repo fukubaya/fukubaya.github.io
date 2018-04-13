@@ -17,6 +17,14 @@
 	    "bottomright": {"x": 1390, "y": 517}
 	},
 	{
+  	  "label": "リーフシトロン (2018/03/09)",
+	    "src": "./img/20180309-001.jpg",
+	    "topleft": {"x": 25, "y": 25},
+	    "topright": {"x": 1452, "y": 25},
+	    "bottomleft": {"x": 25, "y": 516},
+	    "bottomright": {"x": 1452, "y": 516}
+	},
+	{
 	    "label": "ロッカジャポニカ (2018/03/07)",
 	    "src": "./img/20180307-001.jpg",
 	    "topleft": {"x": 20, "y": 570},
@@ -113,6 +121,30 @@
 	    "bottomright": {"x": 929, "y": 340}
 	},
 	{
+  	  "label": "マジェスティックセブン @ 日テレらんらんホール (2017/12/10)",
+	    "src": "./img/20171210-003.jpg",
+	    "topleft": {"x": 400, "y": 10},
+	    "topright": {"x": 630, "y": 10},
+	    "bottomleft": {"x": 400, "y": 417},
+	    "bottomright": {"x": 630, "y": 417}
+	},
+	{
+  	  "label": "奥澤村 @ 日テレらんらんホール (2017/12/10)",
+	    "src": "./img/20171210-002.jpg",
+	    "topleft": {"x": 510, "y": 10},
+	    "topright": {"x": 730, "y": 10},
+	    "bottomleft": {"x": 510, "y": 417},
+	    "bottomright": {"x": 730, "y": 417}
+	},
+	{
+  	  "label": "リーフシトロン @ 日テレらんらんホール (2017/12/10)",
+	    "src": "./img/20171210-001.jpg",
+	    "topleft": {"x": 15, "y": 200},
+	    "topright": {"x": 625, "y": 200},
+	    "bottomleft": {"x": 15, "y": 412},
+	    "bottomright": {"x": 625, "y": 412}
+	},
+	{
 	    "label": "はちみつロケット @ サンシャインシティ噴水広場 (2017/12/01)",
 	    "src": "./img/20171201-001.jpg",
 	    "topleft": {"x": 30, "y": 948},
@@ -143,6 +175,38 @@
 	    "topright": {"x": 600, "y": 40},
 	    "bottomleft": {"x": 40, "y": 600},
 	    "bottomright": {"x": 600, "y": 600}
+	},
+	{
+  	  "label": "奥澤村 @ 吉祥寺 CLUB SEATA (2017/11/03)",
+	    "src": "./img/20171103-004.jpg",
+	    "topleft": {"x": 15, "y": 227},
+  	  "topright": {"x": 630, "y": 227},
+	    "bottomleft": {"x": 15, "y": 427},
+	    "bottomright": {"x": 630, "y": 427}
+	},
+	{
+  	  "label": "奥澤村 @ 吉祥寺 CLUB SEATA (2017/11/03)",
+	    "src": "./img/20171103-003.jpg",
+	    "topleft": {"x": 235, "y": 10},
+	    "topright": {"x": 630, "y": 10},
+	    "bottomleft": {"x": 235, "y": 188},
+	    "bottomright": {"x": 630, "y": 188}
+	},
+	{
+  	  "label": "奥澤村 @ 吉祥寺 CLUB SEATA (2017/11/03)",
+	    "src": "./img/20171103-002.jpg",
+	    "topleft": {"x": 400, "y": 10},
+	    "topright": {"x": 630, "y": 10},
+	    "bottomleft": {"x": 400, "y": 417},
+	    "bottomright": {"x": 630, "y": 417}
+	},
+	{
+  	  "label": "奥澤村 @ 吉祥寺 CLUB SEATA (2017/11/03)",
+	    "src": "./img/20171103-001.jpg",
+	    "topleft": {"x": 15, "y": 238},
+	    "topright": {"x": 625, "y": 128},
+	    "bottomleft": {"x": 15, "y": 412},
+	    "bottomright": {"x": 625, "y": 412}
 	},
 	{
 	    "label": "ロッカジャポニカ (2017/10/25)",
@@ -199,6 +263,14 @@
 	    "topright": {"x": 1575, "y": 690},
 	    "bottomleft": {"x": 81, "y": 1140},
 	    "bottomright": {"x": 1599, "y": 1236}
+	},
+	{
+  	  "label": "リーフシトロン @ TSUTAYA O-Crest (2017/09/30)",
+	    "src": "./img/20170930-001.jpg",
+	    "topleft": {"x": 10, "y": 222},
+	    "topright": {"x": 630, "y": 222},
+	    "bottomleft": {"x": 10, "y": 417},
+	    "bottomright": {"x": 630, "y": 417}
 	},
 	{
 	    "label": "ロッカジャポニカ @ イナズマロックフェス2016リターンズ (2017/09/15)",
