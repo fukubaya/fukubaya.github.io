@@ -17,7 +17,7 @@
       return obj;
     }
     return function(){return obj;};
-  }
+  };
 
   var intl_div = function(p, q, m, n){
     return {x: (n * p.x + m * q.x) / (m + n),
@@ -34,8 +34,13 @@
     this.get_font = to_function(conf.font || '"Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, Osaka, "MS PGothic", arial, helvetica, sans-serif');
     this.get_column = to_function(conf.column || 1);
     this.enable_bold = to_function(conf.bold || false);
+    this.enable_rainbow = to_function(conf.rainbow || false);
     this.enable_italic = to_function(conf.italic || false);
+    this.enable_shadow = to_function(conf.shadow || false);
+    this.enable_background = to_function(conf.background || false);
     this.get_fill_style = to_function(conf.fill_style || "#000000");
+    this.get_shadow_color = to_function(conf.shadow_color || "#FFFFFF");
+    this.get_background_color = to_function(conf.background_color || "rgba(0, 0, 0, 0.5);");
     this.get_text_align = to_function(conf.text_align || "left");
     this.get_text_valign = to_function(conf.text_valign || "horizontal");
     this.get_text = to_function(conf.get_text);
@@ -45,6 +50,88 @@
     this.topright = 0;
     this.bottomleft = 0;
     this.bottomright = 0;
+    this.rainbow_colors = ["#ffd39c", "#ffb4af", "#ff92c6", "#ff7ad4", "#e797dd", "#c5c0ea", "#acdef4"];
+    this.rainbow_nums = 5;
+  };
+  DrawText.prototype.get_w_top = function() {
+    return this.topright.x - this.topleft.x;
+  };
+  DrawText.prototype.get_line_height = function() {
+    return this.get_font_size() * 1.2;
+  };
+  DrawText.prototype.get_column_p = function(col, row) {
+    return {
+      topleft: intl_div(this.topleft, this.topright, col, this.get_column() - col),
+      topright: intl_div(this.topleft, this.topright, col + 1, this.get_column() - col - 1),
+      bottomleft: intl_div(this.bottomleft, this.bottomright, col, this.get_column() - col),
+      bottomright: intl_div(this.bottomleft, this.bottomright, col + 1, this.get_column() - col - 1)
+    };
+  };
+  DrawText.prototype.get_offset = function(col, row) {
+    return {
+      x: 0,
+      y: 0
+    };
+  };
+
+
+  DrawText.prototype.draw_line = function(text, col, row, max_line_width, shadow) {
+    var line_width = this.ctx.measureText(text).width;
+    var column_p = this.get_column_p(col, row);
+    var column_h = {
+      right: column_p.bottomright.y - column_p.topright.y,
+      left: column_p.bottomleft.y - column_p.topleft.y
+    };
+    var line_left = {
+      x: column_p.topleft.x - (row * this.get_line_height()) * (column_p.topleft.x - column_p.bottomleft.x)/column_h.left,
+      y: column_p.topleft.y + (row * this.get_line_height())
+    };
+    var line_right = {
+      x: column_p.topright.x - (row * this.get_line_height()) * (column_p.topright.x - column_p.bottomright.x)/column_h.left,
+      y: column_p.topright.y + (row * this.get_line_height()) * (column_h.right/column_h.left)
+    };
+    
+    var offset_x = line_left.x;
+    var offset_y = line_left.y;
+    if(this.ctx.textAlign == 'center'){
+      offset_x = (line_left.x + line_right.x) / 2;
+      offset_y = (line_left.y + line_right.y) / 2;
+    }else if(this.ctx.textAlign == 'right'){
+      offset_x = line_right.x;
+      offset_y = line_right.y;
+    }
+    
+    this.ctx.save();
+    this.ctx.transform(
+      1.0,
+      (line_right.y - line_left.y)/(this.get_w_top()/this.get_column()),
+      (column_p.bottomleft.x - column_p.topleft.x)/column_h.left,
+      1.0,
+      offset_x,
+      offset_y
+    );
+
+    if(shadow){
+      for(var k = 0; k < 10; k++) {
+        this.ctx.fillStyle = 'rgba(255, 255, 255, 1)';
+	      this.ctx.shadowColor = this.get_shadow_color();
+        this.ctx.shadowOffsetX = 0;
+        this.ctx.shadowOffsetY = 0;
+        this.ctx.shadowBlur = this.get_font_size() * 0.1 * (k + 1);
+        this.ctx.fillText(text, 0, 0, ((this.get_w_top() - this.get_font_size() * 0.5)/ this.get_column()) * line_width / max_line_width);
+      }
+    } else if(this.enable_rainbow()) {
+      var gradient = this.ctx.createLinearGradient(0, 0, max_line_width, 0);
+      for(var k = 0; k < this.rainbow_nums; k++){
+        gradient.addColorStop(k/(this.rainbow_nums - 1) + "", this.rainbow_colors[(k + row) % this.rainbow_colors.length]);
+      }
+      this.ctx.fillStyle = gradient;
+      this.ctx.fillText(text, 0, 0, ((this.get_w_top() - this.get_font_size() * 0.5)/ this.get_column()) * line_width / max_line_width);
+    } else {
+      this.ctx.fillStyle = this.get_fill_style();
+      this.ctx.fillText(text, 0, 0, ((this.get_w_top() - this.get_font_size() * 0.5)/ this.get_column()) * line_width / max_line_width);
+    }
+    this.ctx.restore();
   };
 
   DrawText.prototype.draw = function(){
@@ -77,11 +164,12 @@
     this.ctx.save();
 
     // cliping path
+    var margin = this.get_font_size();
     this.ctx.beginPath();
-    this.ctx.moveTo(this.topleft.x, this.topleft.y);
-    this.ctx.lineTo(this.topright.x, this.topright.y);
-    this.ctx.lineTo(this.bottomright.x, this.bottomright.y);
-    this.ctx.lineTo(this.bottomleft.x, this.bottomleft.y);
+    this.ctx.moveTo(this.topleft.x - margin, this.topleft.y - margin);
+    this.ctx.lineTo(this.topright.x + margin, this.topright.y - margin);
+    this.ctx.lineTo(this.bottomright.x + margin, this.bottomright.y + margin);
+    this.ctx.lineTo(this.bottomleft.x - margin, this.bottomleft.y + margin);
     this.ctx.closePath();
     this.ctx.clip();
     if(this.debug){
@@ -98,7 +186,17 @@
         this.ctx.stroke();
       }
     }
-
+    if(this.enable_background()){
+      this.ctx.beginPath();
+      this.ctx.moveTo(this.topleft.x - margin, this.topleft.y - margin);
+      this.ctx.lineTo(this.topright.x + margin, this.topright.y - margin);
+      this.ctx.lineTo(this.bottomright.x + margin, this.bottomright.y + margin);
+      this.ctx.lineTo(this.bottomleft.x - margin, this.bottomleft.y + margin);
+      this.ctx.closePath();
+      this.ctx.fillStyle = this.get_background_color();
+      this.ctx.fill();
+    }
+    
     // measure text width of each line
     var lines_width = [];
     for(var i = 0; i < lines.length; i++){
@@ -112,46 +210,19 @@
     var w_column = w_top/num_column;
 
     // draw texts
+    if(this.enable_shadow()){
+      for(var i = 0; i < lines.length; i++){
+        var col = Math.floor(i/lines_per_column);
+        var row = i % lines_per_column;
+        this.draw_line(lines[i], col, row, Math.max.apply(null, lines_width), true);
+      }
+    }
     for(var i = 0; i < lines.length; i++){
       var col = Math.floor(i/lines_per_column);
       var row = i % lines_per_column;
-      var column_p = {
-        topleft: intl_div(this.topleft, this.topright, col, num_column - col),
-        topright: intl_div(this.topleft, this.topright, col + 1, num_column - col - 1),
-        bottomleft: intl_div(this.bottomleft, this.bottomright, col, num_column - col),
-        bottomright: intl_div(this.bottomleft, this.bottomright, col + 1, num_column - col - 1)
-      };
-      var column_h_right = column_p.bottomright.y - column_p.topright.y;
-      var column_h_left = column_p.bottomleft.y - column_p.topleft.y;
-
-      var line_left_y = column_p.topleft.y + (row * line_height);
-      var line_right_y = column_p.topright.y + (row * line_height) * (column_h_right/column_h_left);
-      var line_left_x = column_p.topleft.x - (row * line_height) * (column_p.topleft.x - column_p.bottomleft.x)/column_h_left;
-      var line_right_x = column_p.topright.x - (row * line_height) * (column_p.topright.x - column_p.bottomright.x)/column_h_left;
-
-      var offset_x = line_left_x;
-      var offset_y = line_left_y;
-      if(this.ctx.textAlign == 'center'){
-        offset_x = (line_left_x + line_right_x) / 2;
-        offset_y = (line_left_y + line_right_y) / 2;
-      }else if(this.ctx.textAlign == 'right'){
-        offset_x = line_right_x;
-        offset_y = line_right_y;
-      }
-
-      this.ctx.save();
-      this.ctx.transform(
-        1.0,
-        (line_right_y - line_left_y)/(w_top/num_column),
-        (column_p.bottomleft.x - column_p.topleft.x)/column_h_left,
-        1.0,
-        offset_x,
-        offset_y
-      );
-
-      this.ctx.fillText(lines[i], 0, 0, ((w_top - font_size * 0.5)/ num_column) * lines_width[i] / Math.max.apply(null, lines_width));
-      this.ctx.restore();
+      this.draw_line(lines[i], col, row, Math.max.apply(null, lines_width), false);
     }
+
     this.ctx.restore();
 
     if(this.img){

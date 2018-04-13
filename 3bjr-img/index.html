@@ -46,10 +46,47 @@
         <form class="form-inline">
           <div class="form-group">
             <!-- フォント -->
-            <div class="input-group input-group-sm" style="display: inline-table;">
+            <div class="input-group input-group-sm col-md-4 col-sm-4 col-xs-4" style="display: inline-table;">
               <select id="font_name" class="form-control">
                 <option value="'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif">ゴシック体</option>
                 <option value="'HGP平成明朝体W9', 'HGS平成明朝体W9', 'HGP平成明朝体W9', '平成明朝', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'HiraMinProN-W3', 'HGS明朝E', 'ＭＳ Ｐ明朝', 'MS PMincho', serif">明朝体</option>
+                <option value="'Klee-Medium'">クレー ミディアム</option>
+                <option value="'Klee-Demibold'">クレー デミボールド</option>
+                <option value="'TsukuARdGothic-Regular'">筑紫A丸ゴシック レギュラー</option>
+                <option value="'TsukuARdGothic-Bold'">筑紫A丸ゴシック ボールド</option>
+                <option value="'TsukuBRdGothic-Regular'">筑紫B丸ゴシック レギュラー</option>
+                <option value="'TsukuBRdGothic-Bold'">筑紫B丸ゴシック ボールド</option>
+                <option value="'YuMin_36pKn-Medium'">游明朝体+36ポかな ミディアム</option>
+                <option value="'YuMin_36pKn-Extrabold'">游明朝体+36ポかな エクストラボールド</option>
+                <option value="'YuMin_36pKn-Demibold'">游明朝体+36ポかな デミボールド</option>
+                <option value="-apple-system">San Francisco</option>
+                <option value="'Hiragino Sans'">ヒラギノ角ゴシック</option>
+                <option value="'HiraginoSans-W0'">ヒラギノ角ゴシック W0</option>
+                <option value="'HiraginoSans-W1'">ヒラギノ角ゴシック W1</option>
+                <option value="'HiraginoSans-W2'">ヒラギノ角ゴシック W2</option>
+                <option value="'HiraginoSans-W3'">ヒラギノ角ゴシック W3</option>
+                <option value="'HiraginoSans-W4'">ヒラギノ角ゴシック W4</option>
+                <option value="'HiraginoSans-W5'">ヒラギノ角ゴシック W5</option>
+                <option value="'HiraginoSans-W6'">ヒラギノ角ゴシック W6</option>
+                <option value="'HiraginoSans-W7'">ヒラギノ角ゴシック W7</option>
+                <option value="'HiraginoSans-W8'">ヒラギノ角ゴシック W8</option>
+                <option value="'HiraginoSans-W9'">ヒラギノ角ゴシック W9</option>
+                <option value="'HiraKakuStdN-W8'">ヒラギノ角ゴ StdN W8</option>
+                <option value="'HiraMaruProN-W4'">ヒラギノ丸ゴ ProN W4</option>
+                <option value="'HiraMinProN-W3'">ヒラギノ明朝 ProN W3</option>
+                <option value="'HiraMinProN-W6'">ヒラギノ明朝 ProN W6</option>
+                <option value="'ToppanBunkyuGothicPr6N-Regular'">凸版文久ゴシック レギュラー</option>
+                <option value="'ToppanBunkyuGothicPr6N-DB'">凸版文久ゴシック デミボールド</option>
+                <option value="'ToppanBunkyuMidashiGothicStdN-ExtraBold'">凸版文久見出しゴシック エクストラボールド</option>
+                <option value="'ToppanBunkyuMidashiMinchoStdN-ExtraBold'">凸版文久見出し明朝 エクストラボールド</option>
+                <option value="'ToppanBunkyuMinchoPr6N-Regular'">凸版文久明朝 レギュラー</option>
+                <option value="'YuKyo-Medium'">游教科書体 ミディアム</option>
+                <option value="'YuKyo-Bold'">游教科書体 ボールド</option>
+                <option value="'YuKyo_Yoko-Medium'">游教科書体 横用 ミディアム</option>
+                <option value="'YuKyo_Yoko-Bold'">游教科書体 横用 ボールド</option>
+                <option value="'YuMin-Medium'">游明朝体 ミディアム</option>
+                <option value="'YuMin-Extrabold'">游明朝体 エクストラボールド</option>
+                <option value="'YuMin-Demibold'">游明朝体 デミボールド</option>
               </select>
             </div>
 
@@ -101,7 +138,26 @@
             <div class="input-group input-group-sm" style="display: inline-table;">
               <input type="color" id="colorpicker" />
             </div>
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-default">
+                <input type="checkbox" id="chk_rainbow" autocomplete="off">&#x1f308;
+              </label>
+            </div>
           </div>
+        </form>
+        <form class="form-inline">
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-default">
+                <input type="checkbox" id="chk_shadow" autocomplete="off"><i class="glyphicon glyphicon-text-background"></i>
+              </label>
+              <input type="color" id="colorpicker2" />
+            </div>
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-default">
+                <input type="checkbox" id="chk_background" autocomplete="off"><i class="glyphicon glyphicon-stop"></i>
+              </label>
+              <input type="color" id="colorpicker3" />
+            </div>
         </form>
         <form class="form-inline">
           <div class="form-group">
@@ -148,6 +204,7 @@
                 <option value="1" selected="true">1段</option>
                 <option value="2">2段</option>
                 <option value="3">3段</optoin>
+                <option value="4">4段</optoin>
               </select>
             </div>
           </div>
