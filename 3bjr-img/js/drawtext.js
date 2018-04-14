@@ -38,9 +38,11 @@
     this.enable_italic = to_function(conf.italic || false);
     this.enable_shadow = to_function(conf.shadow || false);
     this.enable_background = to_function(conf.background || false);
+    this.enable_stroke = to_function(conf.stroke || false);
     this.get_fill_style = to_function(conf.fill_style || "#000000");
     this.get_shadow_color = to_function(conf.shadow_color || "#FFFFFF");
     this.get_background_color = to_function(conf.background_color || "rgba(0, 0, 0, 0.5);");
+    this.get_stroke_color = to_function(conf.stroke_color || "rgba(0, 0, 0, 0.8);");
     this.get_text_align = to_function(conf.text_align || "left");
     this.get_text_valign = to_function(conf.text_valign || "horizontal");
     this.get_text = to_function(conf.get_text);
@@ -131,6 +133,12 @@
       this.ctx.fillStyle = this.get_fill_style();
       this.ctx.fillText(text, 0, 0, ((this.get_w_top() - this.get_font_size() * 0.5)/ this.get_column()) * line_width / max_line_width);
     }
+    if (this.enable_stroke()) {
+      this.ctx.strokeStyle = this.get_stroke_color();
+      this.ctx.lineWidth = this.get_font_size() * (this.enable_bold() ? 0.03 : 0.01);
+      this.ctx.strokeText(text, 0, 0, ((this.get_w_top() - this.get_font_size() * 0.5)/ this.get_column()) * line_width / max_line_width);
+    }
+
     this.ctx.restore();
   };
 

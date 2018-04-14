@@ -21,9 +21,11 @@
         italic: function(){return $('#chk_italic').prop('checked');},
         rainbow: function(){return $('#chk_rainbow').prop('checked');},
         background: function(){return $('#chk_background').prop('checked');},
+        stroke: function(){return $('#chk_stroke').prop('checked');},
         fill_style: function(){return $('#colorpicker').spectrum('get').toHex();},
         shadow_color: function(){return $('#colorpicker2').spectrum('get').toHex();},
         background_color: function(){return $('#colorpicker3').spectrum('get').setAlpha(0.5).toRgbString();},
+        stroke_color: function(){return $('#colorpicker4').spectrum('get').setAlpha(0.8).toRgbString();},
         text_align: function(){return $('input[name="align"]:checked').val();},
         text_valign: function(){return $('input[name="valign"]:checked').val();},
         get_text: function(){return $('#textarea').val();},
@@ -55,11 +57,13 @@
       $('#chk_shadow').change(function(){drawtext.draw();});
       $('#chk_rainbow').change(function(){drawtext.draw();});
       $('#chk_background').change(function(){drawtext.draw();});
+      $('#chk_stroke').change(function(){drawtext.draw();});
       $('#chk_italic').change(function(){drawtext.draw();});
       $('#num_column').change(function(){drawtext.draw();});
       $('#colorpicker').change(function(){drawtext.draw();});
       $('#colorpicker2').change(function(){drawtext.draw();});
       $('#colorpicker3').change(function(){drawtext.draw();});
+      $('#colorpicker4').change(function(){drawtext.draw();});
       $('#btn_refresh').click(function(){drawtext.draw();});
 
       // 初期
@@ -88,6 +92,7 @@
     $('#colorpicker').spectrum(colorpicker_conf('#666'));
     $('#colorpicker2').spectrum(colorpicker_conf('#fff'));
     $('#colorpicker3').spectrum(colorpicker_conf('#000'));
+    $('#colorpicker4').spectrum(colorpicker_conf('#000'));
 
     // 画像リストの取得
     $.ajax({
