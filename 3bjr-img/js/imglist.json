@@ -1,12 +1,44 @@
 {
     "imglist": [
 	{
+	    "label": "ロッカジャポニカ @ (2018/04/28)",
+	    "src": "./img/20180428-001.jpg",
+	    "topleft": {"x": 10, "y": 10},
+	    "topright": {"x": 1070, "y": 10},
+	    "bottomleft": {"x": 10, "y": 364},
+	    "bottomright": {"x": 1070, "y": 364}
+	},
+	{
+	    "label": "ロッカジャポニカ @ (2018/04/27)",
+	    "src": "./img/20180427-001.jpg",
+	    "topleft": {"x": 10, "y": 300},
+	    "topright": {"x": 740, "y": 300},
+	    "bottomleft": {"x": 10, "y": 552},
+	    "bottomright": {"x": 740, "y": 552}
+	},
+	{
+	    "label": "ロッカジャポニカ @ ギュウ農フェス2018 (2018/04/08)",
+	    "src": "./img/20180408-001.jpg",
+	    "topleft": {"x": 10, "y": 340},
+	    "topright": {"x": 1014, "y":340},
+	    "bottomleft": {"x": 10, "y": 758},
+	    "bottomright": {"x": 1014, "y": 758}
+	},
+	{
 	    "label": "はちロケFRESH @ Future SEVEN (2018/03/31)",
 	    "src": "./img/20180331-001.jpg",
 	    "topleft": {"x": 20, "y": 20},
 	    "topright": {"x": 1180, "y": 20},
 	    "bottomleft": {"x": 20, "y": 334},
 	    "bottomright": {"x": 1180, "y": 334}
+	},
+	{
+	    "label": "ロッカジャポニカ @ あまがさきキューズモール (2018/03/25)",
+	    "src": "./img/20180325-001.jpg",
+	    "topleft": {"x": 10, "y": 900},
+	    "topright": {"x": 1526, "y": 900},
+	    "bottomleft": {"x": 10, "y": 2038},
+	    "bottomright": {"x": 1526, "y": 2038}
 	},
 	{
 	    "label": "3B junior",
