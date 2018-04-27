@@ -101,8 +101,8 @@
 	    "src": "./img/20180210-001.jpg",
 	    "topleft": {"x": 10, "y": 10},
 	    "topright": {"x": 630, "y": 10},
-	    "bottomleft": {"x": 10, "y": 130},
-	    "bottomright": {"x": 630, "y": 130}
+	    "bottomleft": {"x": 10, "y": 185},
+	    "bottomright": {"x": 630, "y": 185}
 	},
 	{
 	    "label": "内山あみ (2018/01/19)",
