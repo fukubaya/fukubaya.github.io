@@ -76,9 +76,9 @@
 	    "label": "ロッカジャポニカ @ あまがさきキューズモール (2018/03/25)",
 	    "src": "./img/20180325-001.jpg",
 	    "topleft": {"x": 10, "y": 900},
-	    "topright": {"x": 1526, "y": 900},
-	    "bottomleft": {"x": 10, "y": 2038},
-	    "bottomright": {"x": 1526, "y": 2038}
+	    "topright": {"x": 2038, "y": 900},
+	    "bottomleft": {"x": 10, "y": 1526},
+	    "bottomright": {"x": 2038, "y": 1526}
 	},
 	{
 	    "label": "3B junior",
