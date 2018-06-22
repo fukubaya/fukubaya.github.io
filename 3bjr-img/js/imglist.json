@@ -1,12 +1,36 @@
 {
   "imglist": [
 	  {
+	    "label": "はちみつロケット @ (2018/06/12)",
+	    "src": "./img/20180612-001.jpg",
+	    "topleft": {"x": 10, "y": 10},
+	    "topright": {"x": 1070, "y": 10},
+	    "bottomleft": {"x": 10, "y": 320},
+	    "bottomright": {"x": 1070, "y": 320}
+	  },
+	  {
+	    "label": "はちみつロケット @ (2018/06/06)",
+	    "src": "./img/20180606-001.jpg",
+	    "topleft": {"x": 10, "y": 555},
+	    "topright": {"x": 1070, "y": 555},
+	    "bottomleft": {"x": 10, "y": 800},
+	    "bottomright": {"x": 1070, "y": 800}
+	  },
+ 	  {
 	    "label": "3B junior @ @JAM2018 (2018/05/26)",
 	    "src": "./img/20180526-001.jpg",
 	    "topleft": {"x": 15, "y": 909},
 	    "topright": {"x": 2033, "y": 909},
 	    "bottomleft": {"x": 15, "y": 1523},
 	    "bottomright": {"x": 2033, "y": 1523}
+    },
+	  {
+	    "label": "はちみつロケット @ (2018/04/29)",
+	    "src": "./img/20180429-001.jpg",
+	    "topleft": {"x": 10, "y": 10},
+	    "topright": {"x": 1468, "y": 10},
+	    "bottomleft": {"x": 10, "y": 366},
+	    "bottomright": {"x": 1468, "y": 366}
 	  },
 	  {
 	    "label": "ロッカジャポニカ @ (2018/05/02)",
@@ -39,6 +63,14 @@
 	    "topright": {"x": 740, "y": 300},
 	    "bottomleft": {"x": 10, "y": 552},
 	    "bottomright": {"x": 740, "y": 552}
+	  },
+	  {
+	    "label": "はちみつロケット @ (2018/04/25)",
+	    "src": "./img/20180425-001.jpg",
+	    "topleft": {"x": 10, "y": 776},
+	    "topright": {"x": 1468, "y": 776},
+	    "bottomleft": {"x": 10, "y": 1098},
+	    "bottomright": {"x": 1468, "y": 1098}
 	  },
 	  {
 	    "label": "マジェスティックセブン @ SFP (2018/04/22)",
