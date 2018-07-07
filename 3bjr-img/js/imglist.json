@@ -5,7 +5,7 @@
 	    "src": "./img/20180707-001.jpg",
 	    "topleft": {"x": 272, "y": 367},
 	    "topright": {"x": 1005, "y": 367},
-	    "bottomleft": {"x": 1005, "y": 562},
+	    "bottomleft": {"x": 272, "y": 562},
 	    "bottomright": {"x": 1005, "y": 562}
 	  },
 	  {
