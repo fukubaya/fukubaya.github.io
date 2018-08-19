@@ -1,6 +1,62 @@
 {
   "imglist": [
 	  {
+	    "label": "ロッカジャポニカ @ (2018/08/18)",
+	    "src": "./img/20180818-001.jpg",
+	    "topleft": {"x": 30, "y": 800},
+	    "topright": {"x": 2018, "y": 800},
+	    "bottomleft": {"x":30, "y": 1506},
+	    "bottomright": {"x": 2018, "y": 1506}
+	  },
+	  {
+	    "label": "桜エビ〜ず @ (2018/08/17)",
+	    "src": "./img/20180817-001.jpg",
+	    "topleft": {"x": 20, "y": 548},
+	    "topright": {"x": 1330, "y": 548},
+	    "bottomleft": {"x": 20, "y": 880},
+	    "bottomright": {"x": 1330, "y": 880}
+	  },
+	  {
+	    "label": "CROWN POP @ (2018/08/14)",
+	    "src": "./img/20180814-001.jpg",
+	    "topleft": {"x": 20, "y": 808},
+	    "topright": {"x": 2028, "y": 808},
+	    "bottomleft": {"x": 20, "y": 1515},
+	    "bottomright": {"x": 2028, "y": 1515}
+	  },
+	  {
+	    "label": "はちみつロケット @ (2018/08/10)",
+	    "src": "./img/20180810-001.jpg",
+	    "topleft": {"x": 15, "y": 747},
+	    "topright": {"x": 1463, "y": 747},
+	    "bottomleft": {"x": 15, "y": 1093},
+	    "bottomright": {"x": 1463, "y": 1093}
+	  },
+	  {
+	    "label": "はちみつロケット @ (2018/08/07)",
+	    "src": "./img/20180807-001.jpg",
+	    "topleft": {"x": 25, "y": 25},
+	    "topright": {"x": 1453, "y": 25},
+	    "bottomleft": {"x": 25, "y": 620},
+	    "bottomright": {"x": 1453, "y": 620}
+	  },
+	  {
+	    "label": "桜エビ〜ず @ (2018/08/05)",
+	    "src": "./img/20180805-002.jpg",
+	    "topleft": {"x": 18, "y": 18},
+	    "topright": {"x": 1006, "y": 18},
+	    "bottomleft": {"x": 18, "y": 300},
+	    "bottomright": {"x": 1006, "y": 300}
+	  },
+	  {
+	    "label": "CROWN POP @ (2018/08/05)",
+	    "src": "./img/20180805-001.jpg",
+	    "topleft": {"x": 30, "y": 690},
+	    "topright": {"x": 2018, "y": 690},
+	    "bottomleft": {"x": 30, "y": 1505},
+	    "bottomright": {"x": 2018, "y": 1505}
+	  },
+	  {
 	    "label": "ロッカジャポニカ @ (2018/08/02)",
 	    "src": "./img/20180802-001.jpg",
 	    "topleft": {"x": 20, "y": 20},
@@ -23,6 +79,14 @@
 	    "topright": {"x": 1379, "y": 610},
 	    "bottomleft": {"x": 30, "y": 1078},
 	    "bottomright": {"x": 1379, "y": 1078}
+	  },
+	  {
+	    "label": "ロッカジャポニカ @ (2018/07/31)",
+	    "src": "./img/20180731-001.jpg",
+	    "topleft": {"x": 30, "y": 780},
+	    "topright": {"x": 2018, "y": 780},
+	    "bottomleft": {"x": 30, "y": 1506},
+	    "bottomright": {"x": 2018, "y": 1506}
 	  },
 	  {
 	    "label": "ロッカジャポニカ @ (2018/07/29)",
@@ -57,12 +121,28 @@
 	    "bottomright": {"x": 1485, "y": 985}
 	  },
 	  {
+	    "label": "はちみつロケット @ (2018/07/07)",
+	    "src": "./img/20180707-002.jpg",
+	    "topleft": {"x": 20, "y": 20},
+	    "topright": {"x": 1480, "y": 20},
+	    "bottomleft": {"x": 20, "y": 440},
+	    "bottomright": {"x": 1480, "y": 440}
+	  },
+	  {
 	    "label": "桜エビ〜ず @ (2018/07/07)",
 	    "src": "./img/20180707-001.jpg",
 	    "topleft": {"x": 272, "y": 367},
 	    "topright": {"x": 1005, "y": 367},
 	    "bottomleft": {"x": 272, "y": 562},
 	    "bottomright": {"x": 1005, "y": 562}
+	  },
+	  {
+	    "label": "はちみつロケット @ (2018/07/06)",
+	    "src": "./img/20180706-001.jpg",
+	    "topleft": {"x": 20, "y": 968},
+	    "topright": {"x": 1780, "y": 968},
+	    "bottomleft": {"x": 20, "y": 1380},
+	    "bottomright": {"x": 1780, "y": 1380}
 	  },
 	  {
 	    "label": "ロッカジャポニカ @ (2018/06/30)",
