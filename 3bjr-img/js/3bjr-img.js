@@ -25,7 +25,7 @@
         fill_style: function(){return $('#colorpicker').spectrum('get').toHex();},
         shadow_color: function(){return $('#colorpicker2').spectrum('get').toHex();},
         background_color: function(){return $('#colorpicker3').spectrum('get').setAlpha(0.5).toRgbString();},
-        stroke_color: function(){return $('#colorpicker4').spectrum('get').setAlpha(0.8).toRgbString();},
+        stroke_color: function(){return $('#colorpicker4').spectrum('get').setAlpha(1.0).toRgbString();},
         text_align: function(){return $('input[name="align"]:checked').val();},
         text_valign: function(){return $('input[name="valign"]:checked').val();},
         get_text: function(){return $('#textarea').val();},
@@ -88,6 +88,7 @@
           ["#900","#b45f06","#bf9000","#38761d","#134f5c","#0b5394","#351c75","#741b47"],
           ["#600","#783f04","#7f6000","#274e13","#0c343d","#073763","#20124d","#4c1130"],
           ["#acdef4","#ef8999"],
+          ["#975fa2","#98cbca","#95a7b4","#fef69b","#95a8b2","#d72e2a","#d52d26"]
         ]
       };};
     $('#colorpicker').spectrum(colorpicker_conf('#666'));

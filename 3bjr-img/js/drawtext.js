@@ -113,6 +113,11 @@
       offset_y
     );
 
+    if (this.enable_stroke()) {
+      this.ctx.strokeStyle = this.get_stroke_color();
+      this.ctx.lineWidth = this.get_font_size() * 0.1;
+      this.ctx.strokeText(text, 0, 0, ((this.get_w_top() - this.get_font_size() * 0.5)/ this.get_column()) * line_width / max_line_width);
+    }
     if(shadow){
       for(var k = 0; k < 10; k++) {
         this.ctx.fillStyle = 'rgba(255, 255, 255, 1)';
@@ -132,11 +137,6 @@
     } else {
       this.ctx.fillStyle = this.get_fill_style();
       this.ctx.fillText(text, 0, 0, ((this.get_w_top() - this.get_font_size() * 0.5)/ this.get_column()) * line_width / max_line_width);
-    }
-    if (this.enable_stroke()) {
-      this.ctx.strokeStyle = this.get_stroke_color();
-      this.ctx.lineWidth = this.get_font_size() * (this.enable_bold() ? 0.03 : 0.01);
-      this.ctx.strokeText(text, 0, 0, ((this.get_w_top() - this.get_font_size() * 0.5)/ this.get_column()) * line_width / max_line_width);
     }
 
     this.ctx.restore();
