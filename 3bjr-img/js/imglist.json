@@ -1,6 +1,22 @@
 {
   "imglist": [
 	  {
+	    "label": "ロッカジャポニカ @ HMV&BOOKS SHIBUYA (2018/12/11)",
+	    "src": "./img/20181211-001.jpg",
+	    "topleft": {"x": 30, "y": 560},
+	    "topright": {"x": 1986, "y": 560},
+	    "bottomleft": {"x": 30, "y": 1482},
+	    "bottomright": {"x": 1986, "y": 1482}
+	  },
+	  {
+	    "label": "ロッカジャポニカ @ ららぽーと立川立飛 (2018/12/06)",
+	    "src": "./img/20181206-001.jpg",
+	    "topleft": {"x": 35, "y": 810},
+	    "topright": {"x": 2013, "y": 810},
+	    "bottomleft": {"x": 35, "y": 1501},
+	    "bottomright": {"x": 2013, "y": 1501}
+	  },
+	  {
 	    "label": "ロッカジャポニカ @ (2018/11/27)",
 	    "src": "./img/20181127-002.jpg",
 	    "topleft": {"x": 15, "y": 470},
