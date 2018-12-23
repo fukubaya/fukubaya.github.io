@@ -9,6 +9,14 @@
 	    "bottomright": {"x": 2028, "y": 1646}
 	  },
 	  {
+	    "label": "ロッカジャポニカ @ (2018/12/11)",
+	    "src": "./img/20181211-003.jpg",
+	    "topleft": {"x": 432, "y": 580},
+	    "topright": {"x": 1018, "y": 580},
+	    "bottomleft": {"x": 432, "y": 1018},
+	    "bottomright": {"x": 1018, "y": 1018}
+	  },
+	  {
 	    "label": "ロッカジャポニカ @ HMV&BOOKS SHIBUYA (2018/12/11)",
 	    "src": "./img/20181211-002.jpg",
 	    "topleft": {"x": 15, "y": 360},
