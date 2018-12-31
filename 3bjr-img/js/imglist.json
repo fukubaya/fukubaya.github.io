@@ -1,6 +1,14 @@
 {
   "imglist": [
 	  {
+	    "label": "アメフラっシ @ 下北沢GARDEN (2018/12/29)",
+	    "src": "./img/20181229-001.jpg",
+	    "topleft": {"x": 15, "y": 15},
+	    "topright": {"x": 2033, "y":15},
+	    "bottomleft": {"x": 15, "y": 828},
+	    "bottomright": {"x": 2033, "y": 828}
+	  },
+	  {
 	    "label": "アメフラっシ",
 	    "src": "./img/20181225-001.jpg",
 	    "topleft": {"x": 15, "y": 514},
