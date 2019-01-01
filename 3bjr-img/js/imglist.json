@@ -9,6 +9,14 @@
 	    "bottomright": {"x": 2033, "y": 828}
 	  },
 	  {
+	    "label": "ロッカジャポニカ @ Mt.RAINIER HALL (2018/12/25)",
+	    "src": "./img/20181225-002.jpg",
+	    "topleft": {"x": 10, "y": 525},
+	    "topright": {"x": 732, "y":525},
+	    "bottomleft": {"x": 10, "y": 799},
+	    "bottomright": {"x": 732, "y": 799}
+	  },
+	  {
 	    "label": "アメフラっシ",
 	    "src": "./img/20181225-001.jpg",
 	    "topleft": {"x": 15, "y": 514},
