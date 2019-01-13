@@ -1,6 +1,14 @@
 {
   "imglist": [
 	  {
+	    "label": "We Are \"STAR\"",
+	    "src": "./img/we-are-star.jpg",
+	    "topleft": {"x": 10, "y": 10},
+	    "topright": {"x": 790, "y": 10},
+	    "bottomleft": {"x": 10, "y": 790},
+	    "bottomright": {"x": 790, "y": 790}
+	  },
+	  {
 	    "label": "はちみつロケット @  (2019/01/13)",
 	    "src": "./img/20190113-001.jpg",
 	    "topleft": {"x": 20, "y": 996},
