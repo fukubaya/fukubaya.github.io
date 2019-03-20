@@ -1,6 +1,14 @@
 {
   "imglist": [
 	  {
+	    "label": "アメフラっシ @ (2019/03/07)",
+	    "src": "./img/20190307-001.jpg",
+	    "topleft": {"x": 20, "y": 866},
+	    "topright": {"x": 1088, "y": 866},
+	    "bottomleft": {"x": 20, "y": 1458},
+	    "bottomright": {"x": 1088, "y": 1458}
+	  },
+	  {
 	    "label": "We Are \"STAR\"",
 	    "src": "./img/we-are-star.jpg",
 	    "topleft": {"x": 10, "y": 10},
