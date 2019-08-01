@@ -1,6 +1,22 @@
 {
   "imglist": [
 	  {
+	    "label": "CROWN POP (2019/08/01)",
+	    "src": "./img/20190801-001.jpg",
+	    "topleft": {"x": 20, "y": 20},
+	    "topright": {"x": 2028, "y": 20},
+	    "bottomleft": {"x": 20, "y": 500},
+	    "bottomright": {"x": 2028, "y": 500}
+	  },
+	  {
+	    "label": "桜エビ〜ず (2019/07/31)",
+	    "src": "./img/20190731-001.jpg",
+	    "topleft": {"x": 70, "y": 700},
+	    "topright": {"x": 1078, "y": 700},
+	    "bottomleft": {"x": 70, "y": 1466},
+	    "bottomright": {"x": 1078, "y": 1466}
+	  },
+	  {
 	    "label": "はちみつロケット (2019/07/20)",
 	    "src": "./img/20190720-001.jpg",
 	    "topleft": {"x": 60, "y": 60},
@@ -15,6 +31,30 @@
 	    "topright": {"x": 4016, "y": 80},
 	    "bottomleft": {"x": 80, "y": 1124},
 	    "bottomright": {"x": 4016, "y": 1124}
+	  },
+	  {
+	    "label": "B.O.L.T (2019/07/16)",
+	    "src": "./img/20190716-002.jpg",
+	    "topleft": {"x": 40, "y": 723},
+	    "topright": {"x": 2167, "y": 723},
+	    "bottomleft": {"x": 40, "y": 1936},
+	    "bottomright": {"x": 2167, "y": 1936}
+	  },
+	  {
+	    "label": "B.O.L.T (2019/07/16)",
+	    "src": "./img/20190716-001.jpg",
+	    "topleft": {"x": 50, "y": 610},
+	    "Topright": {"x": 1428, "y": 610},
+	    "bottomleft": {"x": 50, "y": 1058},
+	    "bottomright": {"x": 1428, "y": 1058}
+	  },
+	  {
+	    "label": "いぎなり東北産 (2019/06/22)",
+	    "src": "./img/20190622-001.jpg",
+	    "topleft": {"x": 15, "y": 15},
+	    "topright": {"x": 1363, "y": 15},
+	    "bottomleft": {"x": 15, "y": 490},
+	    "bottomright": {"x": 1363, "y": 490}
 	  },
 	  {
 	    "label": "はちみつロケット (2019/06/10)",
@@ -39,6 +79,14 @@
 	    "topright": {"x": 1394, "y": 798},
 	    "bottomleft": {"x": 20, "y": 1516},
 	    "bottomright": {"x": 1394, "y": 1516}
+	  },
+	  {
+	    "label": "いぎなり東北産 (2019/05/02)",
+	    "src": "./img/20190502-001.jpg",
+	    "topleft": {"x": 60, "y": 1000},
+	    "topright": {"x": 2966, "y": 1000},
+	    "bottomleft": {"x": 60, "y": 2210},
+	    "bottomright": {"x": 2066, "y": 2210}
 	  },
 	  {
 	    "label": "はちみつロケット (2019/04/25)",
