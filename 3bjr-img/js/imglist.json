@@ -1,6 +1,14 @@
 {
   "imglist": [
 	  {
+	    "label": "はちみつロケット・アメフラっシ・B.O.L.T (2019/08/03)",
+	    "src": "./img/20190803-001.jpg",
+	    "topleft": {"x": 25, "y": 1082},
+	    "topright": {"x": 1895, "y": 1082},
+	    "bottomleft": {"x": 25, "y": 1415},
+	    "bottomright": {"x": 1895, "y": 1415}
+	  },
+	  {
 	    "label": "CROWN POP (2019/08/01)",
 	    "src": "./img/20190801-001.jpg",
 	    "topleft": {"x": 20, "y": 20},
