@@ -9,6 +9,14 @@
 	    "bottomright": {"x": 1895, "y": 1415}
 	  },
 	  {
+	    "label": "CROWN POP (2019/08/02)",
+	    "src": "./img/20190802-001.jpg",
+	    "topleft": {"x": 20, "y": 20},
+	    "topright": {"x": 2028, "y": 20},
+	    "bottomleft": {"x": 20, "y": 330},
+	    "bottomright": {"x": 2028, "y": 330}
+	  },
+	  {
 	    "label": "CROWN POP (2019/08/01)",
 	    "src": "./img/20190801-001.jpg",
 	    "topleft": {"x": 20, "y": 20},
