@@ -1,6 +1,22 @@
 {
   "imglist": [
 	  {
+	    "label": "monogatari",
+	    "src": "./img/monogatari.jpg",
+	    "topleft": {"x": 50, "y": 567},
+	    "topright": {"x": 1638, "y": 567},
+	    "bottomleft": {"x": 50, "y": 1074},
+	    "bottomright": {"x": 1638, "y": 1074}
+	  },
+	  {
+	    "label": "アップアップガールズ(2)",
+	    "src": "./img/upupgirls2.jpg",
+	    "topleft": {"x": 20, "y": 400},
+	    "topright": {"x": 1260, "y": 400},
+	    "bottomleft": {"x": 20, "y": 833},
+	    "bottomright": {"x": 1260, "y": 833}
+	  },
+	  {
 	    "label": "はちみつロケット (2019/09/11)",
 	    "src": "./img/20190911-001.jpg",
 	    "topleft": {"x": 100, "y": 1173},
