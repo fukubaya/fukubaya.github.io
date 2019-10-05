@@ -84,7 +84,7 @@
 	    "label": "B.O.L.T (2019/07/16)",
 	    "src": "./img/20190716-001.jpg",
 	    "topleft": {"x": 50, "y": 610},
-	    "Topright": {"x": 1428, "y": 610},
+	    "topright": {"x": 1428, "y": 610},
 	    "bottomleft": {"x": 50, "y": 1058},
 	    "bottomright": {"x": 1428, "y": 1058}
 	  },
