@@ -6,7 +6,7 @@
 	    "topleft": {"x": 20, "y": 20},
 	    "topright": {"x": 834, "y": 20},
 	    "bottomleft": {"x": 20, "y": 420},
-	    "Bottomright": {"x": 834, "y": 420}
+	    "bottomright": {"x": 834, "y": 420}
 	  },
 	  {
 	    "label": "はちみつロケット (2019/10/14)",
