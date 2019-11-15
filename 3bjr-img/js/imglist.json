@@ -1,5 +1,21 @@
 {
   "imglist": [
+    {
+	    "label": "B.O.L.T (2019/11/11)",
+	    "src": "./img/20191111-001.jpg",
+	    "topleft": {"x": 40, "y": 686},
+	    "topright": {"x": 2008, "y": 686},
+	    "bottomleft": {"x": 40, "y": 1496},
+	    "bottomright": {"x": 2008, "y": 1496}
+	  },
+    {
+	    "label": "B.O.L.T (2019/10/23)",
+	    "src": "./img/20191023-001.jpg",
+	    "topleft": {"x": 10, "y": 632},
+	    "topright": {"x": 1466, "y": 632},
+	    "bottomleft": {"x": 10, "y": 1100},
+	    "bottomright": {"x": 1466, "y": 1100}
+	  },
 	  {
 	    "label": "はちみつロケット (2019/10/16)",
 	    "src": "./img/20191016-001.jpg",
