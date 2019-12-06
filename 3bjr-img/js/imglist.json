@@ -1,6 +1,62 @@
 {
   "imglist": [
     {
+	    "label": "はちみつロケット (2019/12/04)",
+	    "src": "./img/20191204-001.jpg",
+	    "topleft": {"x": 20, "y": 688},
+	    "topright": {"x": 1012, "y": 688},
+	    "bottomleft": {"x": 20, "y": 1090},
+	    "bottomright": {"x": 1012, "y": 1090}
+	  },
+    {
+	    "label": "はちみつロケット (2019/11/28)",
+	    "src": "./img/20191128-001.jpg",
+	    "topleft": {"x": 60, "y": 60},
+	    "topright": {"x": 4036, "y": 60},
+	    "bottomleft": {"x": 60, "y": 1160},
+	    "bottomright": {"x": 4036, "y": 1160}
+	  },
+    {
+	    "label": "浪江女子発組合 (2019/11/24)",
+	    "src": "./img/20191124-002.jpg",
+	    "topleft": {"x": 20, "y": 438},
+	    "topright": {"x": 1458, "y": 438},
+	    "bottomleft": {"x": 20, "y": 1088},
+	    "bottomright": {"x": 1458, "y": 1088}
+	  },
+    {
+	    "label": "浪江女子発組合 (2019/11/24)",
+	    "src": "./img/20191124-001.jpg",
+	    "topleft": {"x": 40, "y": 630},
+	    "topright": {"x": 1940, "y": 630},
+	    "bottomleft": {"x": 40, "y": 1600},
+	    "bottomright": {"x": 1940, "y": 1600}
+	  },
+    {
+	    "label": "B.O.L.T (2019/11/20)",
+	    "src": "./img/20191120-002.jpg",
+	    "topleft": {"x": 40, "y": 876},
+	    "topright": {"x": 2008, "y": 876},
+	    "bottomleft": {"x": 40, "y": 1496},
+	    "bottomright": {"x": 2008, "y": 1496}
+	  },
+    {
+	    "label": "B.O.L.T (2019/11/20)",
+	    "src": "./img/20191120-001.jpg",
+	    "topleft": {"x": 30, "y": 968},
+	    "topright": {"x": 2018, "y": 968},
+	    "bottomleft": {"x": 30, "y": 1506},
+	    "bottomright": {"x": 2018, "y": 1506}
+	  },
+    {
+	    "label": "B.O.L.T (2019/11/15)",
+	    "src": "./img/20191115-001.jpg",
+	    "topleft": {"x": 20, "y": 282},
+	    "topright": {"x": 1000, "y":282},
+	    "bottomleft": {"x": 20, "y": 580},
+	    "bottomright": {"x": 1000, "y": 580}
+	  },
+    {
 	    "label": "B.O.L.T (2019/11/11)",
 	    "src": "./img/20191111-001.jpg",
 	    "topleft": {"x": 40, "y": 686},
