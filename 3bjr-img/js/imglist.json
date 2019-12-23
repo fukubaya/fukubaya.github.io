@@ -1,6 +1,38 @@
 {
   "imglist": [
     {
+	    "label": "B.O.L.T (2019/12/22)",
+	    "src": "./img/20191222-001.jpg",
+      "topleft": {"x": 40, "y": 1010},
+      "topright": {"x": 2008, "y": 1010},
+	    "bottomleft": {"x": 40, "y": 1496},
+      "bottomright": {"x": 2008, "y": 1496}
+	  },
+    {
+	    "label": "B.O.L.T (2019/12/19)",
+	    "src": "./img/bolt-20191219-001.png",
+      "topleft": {"x": 30, "y": 377},
+      "topright": {"x": 1170, "y": 377},
+	    "bottomleft": {"x": 30, "y": 643},
+      "bottomright": {"x": 1170, "y": 643}
+	  },
+    {
+	    "label": "アメフラっシ (2019/12/15)",
+	    "src": "./img/20191215-004.jpg",
+	    "topleft": {"x": 25, "y": 618},
+	    "topright": {"x": 2075, "y": 618},
+	    "bottomleft": {"x": 25, "y": 1136},
+	    "bottomright": {"x": 2075, "y": 1136}
+	  },
+    {
+	    "label": "アメフラっシ (2019/12/15)",
+	    "src": "./img/20191215-003.jpg",
+	    "topleft": {"x": 25, "y": 786},
+	    "topright": {"x": 2023, "y": 786},
+	    "bottomleft": {"x": 25, "y": 1513},
+	    "bottomright": {"x": 2023, "y": 1513}
+	  },
+    {
 	    "label": "アメフラっシ (2019/12/15)",
 	    "src": "./img/20191215-002.jpg",
 	    "topleft": {"x": 729, "y": 1010},
