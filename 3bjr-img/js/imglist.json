@@ -1,6 +1,14 @@
 {
   "imglist": [
     {
+	    "label": "アメフラっシ (2020/01/07)",
+	    "src": "./img/20200107-001.jpg",
+	    "topleft": {"x": 20, "y": 646},
+	    "topright": {"x": 1910, "y": 646},
+	    "bottomleft": {"x": 20, "y": 1288},
+	    "bottomright": {"x": 1910, "y": 1288}
+	  },
+    {
 	    "label": "B.O.L.T (2020/01/01)",
 	    "src": "./img/20200101-001.jpg",
       "topleft": {"x": 30, "y": 30},
