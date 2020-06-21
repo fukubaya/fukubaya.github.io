@@ -1,6 +1,14 @@
 {
   "imglist": [
     {
+      "label": "ばってん少女隊 (2020/06/21)",
+      "src": "./img/20200621-001.jpg",
+      "topleft": {"x": 10, "y": 211},
+      "topright": {"x": 894, "y": 211},
+      "bottomleft": {"x": 10, "y": 457},
+      "bottomright": {"x": 894, "y": 457}
+    },
+    {
 	    "label": "B.O.L.T (2020/02/03)",
       "src": "./img/20200203-001.jpg",
       "topleft": {"x": 40, "y": 724},
