@@ -2,6 +2,14 @@
   "imglist": [
     {
       "label": "ukka (2020/06/21)",
+      "src": "./img/20200621-003.jpg",
+      "topleft": {"x":15, "y": 752},
+      "topright": {"x": 1468, "y": 752},
+      "bottomleft": {"x": 15, "y": 1098},
+      "bottomright": {"x": 1468, "y": 1098}
+    },
+    {
+      "label": "ukka (2020/06/21)",
       "src": "./img/20200621-002.jpg",
       "topleft": {"x": 606, "y": 868},
       "topright": {"x": 2028, "y": 868},
