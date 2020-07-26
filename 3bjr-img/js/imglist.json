@@ -33,6 +33,14 @@
       "bottomright": {"x": 894, "y": 457}
     },
     {
+      "label": "Awww! (2020/06/20)",
+      "src": "./img/20200620-001.jpg",
+      "topleft": {"x": 40, "y": 596},
+      "topright": {"x": 2006, "y": 596},
+      "bottomleft": {"x": 40, "y": 1494},
+      "bottomright": {"x": 2006, "y": 1494}
+    },
+    {
 	    "label": "B.O.L.T (2020/02/03)",
       "src": "./img/20200203-001.jpg",
       "topleft": {"x": 40, "y": 724},
