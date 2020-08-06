@@ -1,6 +1,46 @@
 {
   "imglist": [
     {
+	    "label": "Awww! (2020/08/06)",
+	    "src": "./img/20200806-001.jpg",
+	    "topleft": {"x": 30, "y": 624},
+	    "topright": {"x": 2018, "y": 624},
+	    "bottomleft": {"x": 30, "y": 1506},
+	    "bottomright": {"x": 2018, "y": 1506}
+	  },
+    {
+	    "label": "CROWN POP (2020/08/05)",
+	    "src": "./img/20200805-001.jpg",
+	    "topleft": {"x": 30, "y": 676},
+	    "topright": {"x": 2018, "y": 676},
+	    "bottomleft": {"x": 30, "y": 1504},
+	    "bottomright": {"x": 2018, "y": 1504}
+	  },
+    {
+	    "label": "アメフラっシ (2020/07/31)",
+	    "src": "./img/20200731-001.jpg",
+	    "topleft": {"x": 35, "y": 35},
+	    "topright": {"x": 1945, "y":35 },
+	    "bottomleft": {"x": 35, "y": 496},
+	    "bottomright": {"x": 1945, "y": 496}
+	  },
+    {
+	    "label": "アメフラっシ (2020/07/25)",
+	    "src": "./img/20200725-001.jpg",
+	    "topleft": {"x": 15, "y": 586},
+	    "topright": {"x": 1093, "y": 586},
+	    "bottomleft": {"x": 15, "y": 1463},
+	    "bottomright": {"x": 1093, "y": 1463}
+	  },
+    {
+	    "label": "B.O.L.T (2020/07/03)",
+      "src": "./img/bolt-20200703-001.jpg",
+      "topleft": {"x": 20, "y": 513},
+      "topright": {"x": 1180, "y": 513},
+      "bottomleft": {"x": 20, "y": 938},
+      "bottomright": {"x": 1180, "y": 938}
+    },
+    {
 	    "label": "アメフラっシ (2020/07/01)",
 	    "src": "./img/20200701-001.jpg",
 	    "topleft": {"x": 20, "y": 836},
@@ -8,6 +48,22 @@
 	    "bottomleft": {"x": 20, "y": 1516},
 	    "bottomright": {"x": 2028, "y": 1516}
 	  },
+    {
+	    "label": "B.O.L.T (2020/06/30)",
+      "src": "./img/bolt-20200630-001.jpg",
+      "topleft": {"x": 20, "y": 786},
+      "topright": {"x": 1780, "y": 786},
+	    "bottomleft": {"x": 20, "y": 1059},
+      "bottomright": {"x": 1780, "y": 1059}
+    },
+    {
+	    "label": "B.O.L.T (2020/06/27)",
+      "src": "./img/bolt-20200627-001.jpg",
+      "topleft": {"x": 20, "y": 764},
+      "topright": {"x": 2028, "y": 764},
+	    "bottomleft": {"x": 20, "y": 1516},
+      "bottomright": {"x": 2028, "y": 1516}
+    },
     {
       "label": "ukka (2020/06/21)",
       "src": "./img/20200621-003.jpg",
@@ -39,6 +95,14 @@
       "topright": {"x": 2006, "y": 596},
       "bottomleft": {"x": 40, "y": 1494},
       "bottomright": {"x": 2006, "y": 1494}
+    },
+    {
+	    "label": "B.O.L.T (2020/06/18)",
+      "src": "./img/bolt-20200618-001.jpg",
+      "topleft": {"x": 45, "y": 646},
+      "topright": {"x": 1755, "y": 646},
+	    "bottomleft": {"x": 45, "y": 1180},
+      "bottomright": {"x": 1755, "y": 1180}
     },
     {
 	    "label": "B.O.L.T (2020/02/03)",
