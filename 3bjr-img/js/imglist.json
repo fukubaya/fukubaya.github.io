@@ -1,6 +1,14 @@
 {
   "imglist": [
     {
+	    "label": "アメフラっシ (2020/08/06)",
+	    "src": "./img/20200806-002.jpg",
+	    "topleft": {"x": 20, "y": 810},
+	    "topright": {"x": 2028, "y": 810},
+	    "bottomleft": {"x": 20, "y": 1516},
+	    "bottomright": {"x": 2028, "y": 1516}
+	  },
+    {
 	    "label": "Awww! (2020/08/06)",
 	    "src": "./img/20200806-001.jpg",
 	    "topleft": {"x": 30, "y": 624},
