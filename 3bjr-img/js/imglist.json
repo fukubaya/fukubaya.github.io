@@ -1,6 +1,22 @@
 {
   "imglist": [
     {
+	    "label": "B.O.L.T (2020/08/12)",
+      "src": "./img/bolt-20200812-001.jpg",
+      "topleft": {"x": 20, "y": 572},
+      "topright": {"x": 1088, "y": 572},
+      "bottomleft": {"x": 20, "y": 1458},
+      "bottomright": {"x": 1088, "y": 1458}
+    },
+    {
+	    "label": "B.O.L.T (2020/08/07)",
+      "src": "./img/bolt-20200807-001.jpg",
+      "topleft": {"x": 15, "y": 15},
+      "topright": {"x": 2033, "y": 15},
+      "bottomleft": {"x": 15, "y": 430},
+      "bottomright": {"x": 2033, "y": 430}
+    },
+    {
 	    "label": "アメフラっシ (2020/08/06)",
 	    "src": "./img/20200806-002.jpg",
 	    "topleft": {"x": 20, "y": 810},
