@@ -1,6 +1,14 @@
 {
   "imglist": [
     {
+	    "label": "B.O.L.T (2020/08/16)",
+      "src": "./img/bolt-20200816-001.png",
+      "topleft": {"x": 25, "y": 826},
+      "topright": {"x": 2535, "y": 826},
+      "bottomleft": {"x": 25, "y": 1415},
+      "bottomright": {"x": 2535, "y": 1415}
+    },
+    {
 	    "label": "B.O.L.T (2020/08/12)",
       "src": "./img/bolt-20200812-001.jpg",
       "topleft": {"x": 20, "y": 572},
