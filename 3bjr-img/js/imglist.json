@@ -1,6 +1,14 @@
 {
   "imglist": [
     {
+	    "label": "私立恵比寿中学 (2020/08/28)",
+      "src": "./img/20200828-001.jpg",
+      "topleft": {"x": 30, "y": 413},
+      "topright": {"x": 1248, "y": 413},
+      "bottomleft": {"x": 30, "y": 928},
+      "bottomright": {"x": 1248, "y": 928}
+    },
+    {
 	    "label": "B.O.L.T (2020/08/16)",
       "src": "./img/bolt-20200816-001.png",
       "topleft": {"x": 25, "y": 826},
