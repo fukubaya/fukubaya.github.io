@@ -1,6 +1,14 @@
 {
   "imglist": [
     {
+      "label": "ukka (2020/08/30)",
+      "src": "./img/20200830-001.jpg",
+      "topleft": {"x":30, "y": 572},
+      "topright": {"x": 2018, "y": 572},
+      "bottomleft": {"x": 20, "y": 1506},
+      "bottomright": {"x": 2018, "y": 1506}
+    },
+    {
 	    "label": "私立恵比寿中学 (2020/08/28)",
       "src": "./img/20200828-001.jpg",
       "topleft": {"x": 30, "y": 413},
