@@ -1,6 +1,14 @@
 {
   "imglist": [
     {
+      "label": "CROWN POP (2020/09/08)",
+      "src": "./img/20200908-001.jpg",
+      "topleft": {"x":455, "y": 848},
+      "topright": {"x": 2018, "y": 848},
+      "bottomleft": {"x": 455, "y": 1506},
+      "bottomright": {"x": 2018, "y": 1506}
+    },
+    {
       "label": "ukka (2020/08/30)",
       "src": "./img/20200830-001.jpg",
       "topleft": {"x":30, "y": 572},
