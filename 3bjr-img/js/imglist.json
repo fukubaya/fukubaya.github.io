@@ -1,6 +1,14 @@
 {
   "imglist": [
     {
+      "label": "青山菜花 (2020/09/10)",
+      "src": "./img/bolt-20200910-001.png",
+      "topleft": {"x": 1946, "y": 45},
+      "topright": {"x": 2515, "y": 45},
+      "bottomleft": {"x": 1946, "y": 1395},
+      "bottomright": {"x": 2515, "y": 1395}
+    },
+    {
       "label": "CROWN POP (2020/09/08)",
       "src": "./img/20200908-001.jpg",
       "topleft": {"x":455, "y": 848},
@@ -167,6 +175,14 @@
       "topright": {"x": 2008, "y": 724},
   	  "bottomleft": {"x": 40, "y": 1255},
       "bottomright": {"x": 2008, "y": 1255}
+    },
+    {
+      "label": "青山菜花 (2020/01/31)",
+      "src": "./img/bolt-20200131-001.jpg",
+      "topleft": {"x": 849, "y": 30},
+      "topright": {"x": 1564, "y": 30},
+      "bottomleft": {"x": 849, "y": 1032},
+      "bottomright": {"x": 1564, "y": 1032}
     },
     {
 	    "label": "はちみつロケット (2020/01/20)",
