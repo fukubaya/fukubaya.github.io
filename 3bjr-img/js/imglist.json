@@ -33,6 +33,14 @@
       "bottomright": {"x": 1248, "y": 928}
     },
     {
+	    "label": "いぎなり東北産 (2020/08/23)",
+      "src": "./img/20200823-001.jpg",
+      "topleft": {"x": 45, "y": 1581},
+      "topright": {"x": 3987, "y": 1581},
+      "bottomleft": {"x": 45, "y": 2979},
+      "bottomright": {"x": 3987, "y": 2979}
+    },
+    {
 	    "label": "B.O.L.T (2020/08/16)",
       "src": "./img/bolt-20200816-001.png",
       "topleft": {"x": 25, "y": 826},
