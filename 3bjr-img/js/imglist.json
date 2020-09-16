@@ -1,6 +1,14 @@
 {
   "imglist": [
     {
+      "label": "ukka (2020/09/16)",
+      "src": "./img/20200916-001.jpg",
+      "topleft": {"x":30, "y": 690},
+      "topright": {"x": 2370, "y": 690},
+      "bottomleft": {"x":30, "y": 1320},
+      "bottomright": {"x": 2370, "y": 1320}
+    },
+    {
       "label": "アメフラっシ (2020/09/15)",
       "src": "./img/20200915-001.jpg",
       "topleft": {"x": 15, "y": 782},
