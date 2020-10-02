@@ -1,6 +1,30 @@
 {
   "imglist": [
     {
+      "label": "ばってん少女隊 (2020/09/30)",
+      "src": "./img/20200930-001.jpg",
+      "topleft": {"x": 20, "y": 20},
+      "topright": {"x": 1258, "y": 20},
+      "bottomleft": {"x": 20, "y": 428},
+      "bottomright": {"x": 1258, "y": 428}
+    },
+    {
+      "label": "ばってん少女隊 (2020/09/25)",
+      "src": "./img/20200925-001.jpg",
+      "topleft": {"x":15, "y": 15},
+      "topright": {"x": 1327, "y": 15},
+      "bottomleft": {"x":15, "y": 281},
+      "bottomright": {"x": 1327, "y": 281}
+    },
+    {
+      "label": "ばってん少女隊 (2020/09/22)",
+      "src": "./img/20200922-001.jpg",
+      "topleft": {"x":24, "y": 25},
+      "topright": {"x": 1055, "y": 25},
+      "bottomleft": {"x":25, "y": 400},
+      "bottomright": {"x": 1055, "y": 400}
+    },
+    {
       "label": "ukka (2020/09/16)",
       "src": "./img/20200916-001.jpg",
       "topleft": {"x":30, "y": 690},
@@ -103,6 +127,22 @@
 	    "topright": {"x": 2018, "y": 676},
 	    "bottomleft": {"x": 30, "y": 1504},
 	    "bottomright": {"x": 2018, "y": 1504}
+	  },
+    {
+	    "label": "いぎなり東北産 (2020/08/02)",
+	    "src": "./img/20200802-002.jpg",
+	    "topleft": {"x": 336, "y": 389},
+	    "topright": {"x": 1012, "y": 389},
+	    "bottomleft": {"x": 336, "y": 717},
+	    "bottomright": {"x": 1012, "y": 717}
+	  },
+    {
+	    "label": "いぎなり東北産 (2020/08/02)",
+	    "src": "./img/20200802-001.jpg",
+	    "topleft": {"x": 30, "y": 30},
+	    "topright": {"x": 2018, "y": 30},
+	    "bottomleft": {"x": 30, "y": 534},
+	    "bottomright": {"x": 2018, "y": 534}
 	  },
     {
 	    "label": "アメフラっシ (2020/07/31)",
