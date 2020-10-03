@@ -1,6 +1,22 @@
 {
   "imglist": [
     {
+      "label": "CROWN POP",
+      "src": "./img/crownpop.jpg",
+      "topleft": {"x": 703, "y": 10},
+      "topright": {"x": 1175, "y": 10},
+      "bottomleft": {"x": 703, "y": 395},
+      "bottomright": {"x": 1175, "y": 395}
+    },
+    {
+      "label": "ももいろクローバーＺ",
+      "src": "./img/mcz.jpg",
+      "topleft": {"x": 539, "y": 10},
+      "topright": {"x": 973, "y": 10},
+      "bottomleft": {"x": 539, "y": 490},
+      "bottomright": {"x": 973, "y": 490}
+    },
+    {
       "label": "私立恵比寿中学 (2020/10/03)",
       "src": "./img/20201003-006.jpg",
       "topleft": {"x": 30, "y": 776},
@@ -49,6 +65,22 @@
       "bottomright": {"x": 2018, "y": 1506}
     },
     {
+      "label": "たこやきレインボー (2020/10/02)",
+      "src": "./img/20201002-001.jpg",
+      "topleft": {"x": 25, "y": 25},
+      "topright": {"x": 2023, "y": 25},
+      "bottomleft": {"x": 25, "y": 526},
+      "bottomright": {"x": 2023, "y": 526}
+    },
+    {
+      "label": "Awww! (2020/10/01)",
+      "src": "./img/20201001-001.jpg",
+      "topleft": {"x": 20, "y": 1000},
+      "topright": {"x": 2028, "y": 1000},
+      "bottomleft": {"x": 20, "y": 1516},
+      "bottomright": {"x": 2028, "y": 1516}
+    },
+    {
       "label": "ばってん少女隊 (2020/09/30)",
       "src": "./img/20200930-001.jpg",
       "topleft": {"x": 20, "y": 20},
@@ -71,6 +103,22 @@
       "topright": {"x": 1055, "y": 25},
       "bottomleft": {"x":25, "y": 400},
       "bottomright": {"x": 1055, "y": 400}
+    },
+    {
+	    "label": "B.O.L.T (2020/09/18)",
+      "src": "./img/20200918-001.jpg",
+      "topleft": {"x": 10, "y": 332},
+      "topright": {"x": 1014, "y": 332},
+      "bottomleft": {"x": 10, "y": 673},
+      "bottomright": {"x": 1014, "y": 673}
+    },
+    {
+      "label": "ukka (2020/09/16)",
+      "src": "./img/20200916-002.jpg",
+      "topleft": {"x":25, "y": 660},
+      "topright": {"x": 2023, "y": 660},
+      "bottomleft": {"x":25, "y": 1127},
+      "bottomright": {"x": 2023, "y": 1127}
     },
     {
       "label": "ukka (2020/09/16)",
@@ -105,6 +153,14 @@
       "bottomright": {"x": 2018, "y": 1506}
     },
     {
+      "label": "たこやきレインボー (2020/08/31)",
+      "src": "./img/20200831-001.jpg",
+      "topleft": {"x": 25, "y": 25},
+      "topright": {"x": 1543, "y": 25},
+      "bottomleft": {"x": 25, "y": 350},
+      "bottomright": {"x": 1543, "y": 350}
+    },
+    {
       "label": "ukka (2020/08/30)",
       "src": "./img/20200830-001.jpg",
       "topleft": {"x":30, "y": 572},
@@ -127,6 +183,14 @@
       "topright": {"x": 3987, "y": 1581},
       "bottomleft": {"x": 45, "y": 2979},
       "bottomright": {"x": 3987, "y": 2979}
+    },
+    {
+	    "label": "B.O.L.T (2020/08/16)",
+      "src": "./img/20200816-002.jpg",
+      "topleft": {"x": 35, "y": 760},
+      "topright": {"x": 2013, "y": 760},
+      "bottomleft": {"x": 35, "y": 1501},
+      "bottomright": {"x": 2013, "y": 1501}
     },
     {
 	    "label": "B.O.L.T (2020/08/16)",
