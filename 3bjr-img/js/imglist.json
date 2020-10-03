@@ -305,6 +305,14 @@
       "bottomright": {"x": 2028, "y": 1516}
     },
     {
+      "label": "佐々木彩夏 (2020/06/24)",
+      "src": "./img/20200624-001.jpg",
+      "topleft": {"x":20, "y": 483},
+      "topright": {"x": 980, "y": 483},
+      "bottomleft": {"x": 20, "y": 980},
+      "bottomright": {"x": 980, "y": 980}
+    },
+    {
       "label": "ukka (2020/06/21)",
       "src": "./img/20200621-003.jpg",
       "topleft": {"x":15, "y": 752},
