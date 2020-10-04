@@ -1,6 +1,54 @@
 {
   "imglist": [
     {
+      "label": "アメフラっシ (2020/10/04)",
+      "src": "./img/20201004-019.jpg",
+      "topleft": {"x": 30, "y": 717},
+      "topright": {"x": 2018, "y": 717},
+      "bottomleft": {"x": 30, "y": 1506},
+      "bottomright": {"x": 2018, "y": 1506}
+    },
+    {
+      "label": "ももいろクローバーＺ (2020/10/04)",
+      "src": "./img/20201004-018.jpg",
+      "topleft": {"x": 30, "y": 830},
+      "topright": {"x": 1506, "y": 830},
+      "bottomleft": {"x": 30, "y": 2018},
+      "bottomright": {"x": 1506, "y": 2018}
+    },
+    {
+      "label": "CROWN POP (2020/10/04)",
+      "src": "./img/20201004-017.jpg",
+      "topleft": {"x": 30, "y": 750},
+      "topright": {"x": 1506, "y": 750},
+      "bottomleft": {"x": 30, "y": 2018},
+      "bottomright": {"x": 1506, "y": 2018}
+    },
+    {
+      "label": "CROWN POP (2020/10/04)",
+      "src": "./img/20201004-016.jpg",
+      "topleft": {"x": 30, "y": 892},
+      "topright": {"x": 1504, "y": 892},
+      "bottomleft": {"x": 30, "y": 2018},
+      "bottomright": {"x": 1504, "y": 2018}
+    },
+    {
+      "label": "たこやきレインボー (2020/10/04)",
+      "src": "./img/20201004-015.jpg",
+      "topleft": {"x": 30, "y": 644},
+      "topright": {"x": 2018, "y": 644},
+      "bottomleft": {"x": 30, "y": 1506},
+      "bottomright": {"x": 2018, "y": 1506}
+    },
+    {
+      "label": "超ときめき♡宣伝部 (2020/10/04)",
+      "src": "./img/20201004-014.jpg",
+      "topleft": {"x": 30, "y": 663},
+      "topright": {"x": 2018, "y": 663},
+      "bottomleft": {"x": 30, "y": 1506},
+      "bottomright": {"x": 2018, "y": 1506}
+    },
+    {
       "label": "超ときめき♡宣伝部 (2020/10/04)",
       "src": "./img/20201004-013.jpg",
       "topleft": {"x": 30, "y": 849},
