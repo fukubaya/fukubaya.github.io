@@ -1,6 +1,22 @@
 {
   "imglist": [
     {
+      "label": "アメフラっシ (2020/12/28)",
+      "src": "./img/20201228-002.jpg",
+      "topleft": {"x": 30, "y": 742},
+      "topright": {"x": 2018, "y": 742},
+      "bottomleft": {"x": 30, "y": 1506},
+      "bottomright": {"x": 2018, "y": 1506}
+    },
+    {
+      "label": "アメフラっシ (2020/12/28)",
+      "src": "./img/20201228-001.jpg",
+      "topleft": {"x": 30, "y": 766},
+      "topright": {"x": 2018, "y": 766},
+      "bottomleft": {"x": 30, "y": 1510},
+      "bottomright": {"x": 2018, "y": 1510}
+    },
+    {
       "label": "Awww! (2020/12/13)",
       "src": "./img/20201213-001.jpg",
       "topleft": {"x": 30, "y": 892},
