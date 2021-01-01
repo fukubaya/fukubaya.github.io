@@ -25,6 +25,14 @@
       "bottomright": {"x": 2018, "y": 1506}
     },
     {
+      "label": "CROWN POP (2020/12/19)",
+      "src": "./img/20201219-001.jpg",
+      "topleft": {"x": 30, "y": 978},
+      "topright": {"x": 1227, "y": 978},
+      "bottomleft": {"x": 30, "y": 2018},
+      "bottomright": {"x": 1227, "y": 2018}
+    },
+    {
       "label": "B.O.L.T (白浜・青山) (2020/12/09)",
       "src": "./img/20201209-002.jpg",
       "topleft": {"x": 30, "y": 780},
