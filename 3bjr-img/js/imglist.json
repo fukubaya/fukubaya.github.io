@@ -1,6 +1,30 @@
 {
   "imglist": [
     {
+      "label": "アメフラっシ (2021/01/24)",
+      "src": "./img/20210124-001.jpg",
+      "topleft": {"x": 30, "y": 706},
+      "topright": {"x": 2018, "y": 706},
+      "bottomleft": {"x": 30, "y": 1510},
+      "bottomright": {"x": 2018, "y": 1510}
+    },
+    {
+      "label": "アメフラっシ (2021/01/05)",
+      "src": "./img/20210105-001.jpg",
+      "topleft": {"x": 30, "y": 987},
+      "topright": {"x": 1506, "y": 987},
+      "bottomleft": {"x": 30, "y": 2018},
+      "bottomright": {"x": 1506, "y": 2018}
+    },
+    {
+      "label": "アメフラっシ (2021/01)",
+      "src": "./img/20210101-001.jpg",
+      "topleft": {"x": 30, "y": 486},
+      "topright": {"x": 2070, "y": 486},
+      "bottomleft": {"x": 30, "y": 1130},
+      "bottomright": {"x": 2070, "y": 1130}
+    },
+    {
       "label": "B.O.L.T (2021/01/15)",
       "src": "./img/20210115-001.jpg",
       "topleft": {"x": 20, "y": 582},
