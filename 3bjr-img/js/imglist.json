@@ -1,6 +1,14 @@
 {
   "imglist": [
     {
+      "label": "B.O.L.T (2021/04/14)",
+      "src": "./img/20210414-001.jpg",
+      "topleft": {"x": 30, "y": 30},
+      "topright": {"x": 4002, "y": 30},
+      "bottomleft": {"x": 30, "y": 780},
+      "bottomright": {"x": 4002, "y": 780}
+    },
+    {
       "label": "B.O.L.T (2021/04/02)",
       "src": "./img/20210402-001.jpg",
       "topleft": {"x": 30, "y": 993},
