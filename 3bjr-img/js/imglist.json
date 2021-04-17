@@ -9,6 +9,14 @@
       "bottomright": {"x": 4002, "y": 780}
     },
     {
+      "label": "B.O.L.T (2021/04/03)",
+      "src": "./img/20210403-001.jpg",
+      "topleft": {"x": 15, "y": 548},
+      "topright": {"x": 1065, "y": 548},
+      "bottomleft": {"x": 15, "y": 971},
+      "bottomright": {"x": 1065, "y": 971}
+    },
+    {
       "label": "B.O.L.T (2021/04/02)",
       "src": "./img/20210402-001.jpg",
       "topleft": {"x": 30, "y": 993},
