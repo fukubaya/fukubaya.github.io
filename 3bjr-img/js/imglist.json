@@ -1,6 +1,22 @@
 {
   "imglist": [
     {
+      "label": "B.O.L.T (2021/04/23)",
+      "src": "./img/20210423-001.png",
+      "topleft": {"x": 15, "y": 15},
+      "topright": {"x": 1005, "y": 15},
+      "bottomleft": {"x": 15, "y": 308},
+      "bottomright": {"x": 1005, "y": 308}
+    },
+    {
+      "label": "B.O.L.T (2021/04/18)",
+      "src": "./img/20210418-001.jpg",
+      "topleft": {"x": 30, "y": 30},
+      "topright": {"x": 2018, "y": 30},
+      "bottomleft": {"x": 30, "y": 572},
+      "bottomright": {"x": 2018, "y": 572}
+    },
+    {
       "label": "B.O.L.T (2021/04/14)",
       "src": "./img/20210414-001.jpg",
       "topleft": {"x": 30, "y": 30},
