@@ -1,6 +1,14 @@
 {
   "imglist": [
     {
+      "label": "Awww! (2021/05/19)",
+      "src": "./img/20210519-001.jpg",
+      "topleft": {"x": 25, "y": 810},
+      "topright": {"x": 2023, "y": 810},
+      "bottomleft": {"x": 25, "y": 1511},
+      "bottomright": {"x": 2023, "y": 1511}
+    },
+    {
       "label": "B.O.L.T (2021/04/23)",
       "src": "./img/20210423-001.png",
       "topleft": {"x": 15, "y": 15},
