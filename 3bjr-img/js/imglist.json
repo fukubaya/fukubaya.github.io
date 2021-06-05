@@ -1,12 +1,28 @@
 {
   "imglist": [
     {
+      "label": "B.O.L.T (2021/05/19)",
+      "src": "./img/20210519-002.jpg",
+      "topleft": {"x": 25, "y": 510},
+      "topright": {"x": 1453, "y": 510},
+      "bottomleft": {"x": 25, "y": 1083},
+      "bottomright": {"x": 1453, "y": 1083}
+    },
+    {
       "label": "Awww! (2021/05/19)",
       "src": "./img/20210519-001.jpg",
       "topleft": {"x": 25, "y": 810},
       "topright": {"x": 2023, "y": 810},
       "bottomleft": {"x": 25, "y": 1511},
       "bottomright": {"x": 2023, "y": 1511}
+    },
+    {
+      "label": "B.O.L.T (2021/05/18)",
+      "src": "./img/20210518-001.jpg",
+      "topleft": {"x": 25, "y": 548},
+      "topright": {"x": 1453, "y": 548},
+      "bottomleft": {"x": 25, "y": 1083},
+      "bottomright": {"x": 1453, "y": 1083}
     },
     {
       "label": "B.O.L.T (2021/04/23)",
