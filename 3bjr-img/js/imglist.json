@@ -1,6 +1,14 @@
 {
   "imglist": [
     {
+      "label": "アメフラっシ (2021/06/17)",
+      "src": "./img/20210617-001.jpg",
+      "topleft": {"x": 25, "y": 25},
+      "topright": {"x": 1515, "y": 25},
+      "bottomleft": {"x": 25, "y": 732},
+      "bottomright": {"x": 1515, "y": 732}
+    },
+    {
       "label": "B.O.L.T (2021/05/19)",
       "src": "./img/20210519-002.jpg",
       "topleft": {"x": 25, "y": 510},
