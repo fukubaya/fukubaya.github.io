@@ -1,12 +1,52 @@
 {
   "imglist": [
     {
+      "label": "CROWN POP (2021/08/04)",
+      "src": "./img/20210804-001.jpg",
+      "topleft": {"x": 40, "y": 792},
+      "topright": {"x": 2408, "y": 792},
+      "bottomleft": {"x": 40, "y": 1796},
+      "bottomright": {"x": 2408, "y": 1796}
+    },
+    {
+      "label": "TEAMSHACHI",
+      "src": "./img/teamshachi3.jpg",
+      "topleft": {"x": 80, "y": 80},
+      "topright": {"x": 2084, "y": 80},
+      "bottomleft": {"x": 80, "y": 1656},
+      "bottomright": {"x": 2084, "y": 1656}
+    },
+    {
+      "label": "TEAMSHACHI",
+      "src": "./img/teamshachi2.jpg",
+      "topleft": {"x": 80, "y": 80},
+      "topright": {"x": 1168, "y": 80},
+      "bottomleft": {"x": 80, "y": 2084},
+      "bottomright": {"x": 1168, "y": 2084}
+    },
+    {
+      "label": "TEAMSHACHI",
+      "src": "./img/teamshachi1.jpg",
+      "topleft": {"x": 80, "y": 80},
+      "topright": {"x": 4512, "y": 80},
+      "bottomleft": {"x": 80, "y": 1000},
+      "bottomright": {"x": 4512, "y": 1000}
+    },
+    {
       "label": "アメフラっシ (2021/07/24)",
       "src": "./img/20210724-001.jpg",
       "topleft": {"x": 25, "y": 770},
       "topright": {"x": 2023, "y": 770},
       "bottomleft": {"x": 25, "y": 1511},
       "bottomright": {"x": 2023, "y": 1511}
+    },
+    {
+      "label": "ばってん少女隊 (2021/07/17)",
+      "src": "./img/20210717-001.jpg",
+      "topleft": {"x": 30, "y": 996},
+      "topright": {"x": 2018, "y": 996},
+      "bottomleft": {"x": 30, "y": 1506},
+      "bottomright": {"x": 2018, "y": 1506}
     },
     {
       "label": "B.O.L.T (2021/07/15)",
