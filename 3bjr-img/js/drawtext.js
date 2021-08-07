@@ -115,7 +115,10 @@
 
     if (this.enable_stroke()) {
       this.ctx.strokeStyle = this.get_stroke_color();
-      this.ctx.lineWidth = this.get_font_size() * 0.1;
+      this.ctx.lineWidth = this.get_font_size() * 0.2;
+      this.ctx.lineCap = "round";
+      this.ctx.lineJoin = "round";
+      this.ctx.miterLimit = 0.1;
       this.ctx.strokeText(text, 0, 0, ((this.get_w_top() - this.get_font_size() * 0.5)/ this.get_column()) * line_width / max_line_width);
     }
     if(shadow){
